@@ -1,11 +1,11 @@
 # MicrO
 A Microbial Ontology of Phenotypic Characters Found in Prokaryotic Taxonomic Descriptions
 
-Beta Version
+Alpha Version
 
 Created by Carrine E. Blank, University of Montana, fall 2013 through summer 2015.
 
-This beta version of the ontology includes terms and term synonyms found in over 1200 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, and Mollicutes.  
+This alpha version of the ontology includes terms and term synonyms found in over 1200 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, and Mollicutes.  
 
 Contains ~ 1,550 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~7,800 terms from 11 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >15,000 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits).
 
