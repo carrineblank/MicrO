@@ -12,6 +12,8 @@ __Tasks remaining/ongoing:
 
 6) Complete definitions for MicrO specific Object Properties
 
+7) Incorporate ontology import modules into Owl file.
+
 
 __Tasks which will likely wait until the next round of funding and development:
 
@@ -28,7 +30,5 @@ __Tasks waiting for outside developemnt(s):
 __OBO Foundry Tasks:
 
 1) Request name space and permanent URLs
-
-2) Establish issue tracker
 
 2) Update OWL file to include PURLs
