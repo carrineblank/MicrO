@@ -1,0 +1,34 @@
+__Tasks remaining/ongoing:
+
+1) Finish logical axioms for inferring new classes of microbiological media (currently working on)
+
+2) Complete definitions and logical axioms for prokaryotic cell organismal qualities
+
+3) Complete definitions and logical axioms for prokaryotic intracellular morphological qualities
+
+4) Complete definitions and logical axioms for prokaryotic cell wall lysis susceptibility
+
+5) Complete definitions and logical axioms for prokaryotic differentiated cell
+
+6) Complete definitions for MicrO specific Object Properties
+
+
+__Tasks which will likely wait until the next round of funding and development:
+
+1) Incorporating classes of prokaryotic habitat qualities - possibly in conjunction with ENVO (?)
+
+2) Incorporating classes of prokaryotic pathogenic phenotypes
+
+
+__Tasks waiting for outside developemnt(s):
+
+1) A number of chemical terms are temporary classes until they are added to ChEBI
+
+
+__OBO Foundry Tasks:
+
+1) Request name space and permanent URLs
+
+2) Establish issue tracker
+
+2) Update OWL file to include PURLs
