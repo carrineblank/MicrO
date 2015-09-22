@@ -25,10 +25,3 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 3.  Once executed you can then run the reasoner.
 
-***KNOWN ISSUES***
-
-1.  Logical axioms for three classes of microbiological culture media are not functioning.
-
-2.  There are a number of new terms that are being requested for entry into ChEBI.  Temporary terms are located under the class "ChEBI terms to be added and processed"
-
-3.  External ontologies are currently being imported using temporary owl files (created by OntoFox) in the "MicrO and Import Modules" folder.  Once the domain name request has been approved and purl addresses assigned, these will be replaced.
