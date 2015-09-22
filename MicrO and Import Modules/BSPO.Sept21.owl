@@ -1,0 +1,1383 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://ontofox.hegroup.org/BSPO.Sept21.owl#"
+     xml:base="http://ontofox.hegroup.org/BSPO.Sept21.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/BSPO.Sept21.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000000 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000000">
+        <rdfs:label rdf:datatype="&xsd;string">left side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000000</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The side of an organism that is left of the sagittal plane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">left</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000001 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000001">
+        <rdfs:label rdf:datatype="&xsd;string">upper side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000001</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Consider merging with superior side.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">upper</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000002 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000002">
+        <rdfs:label rdf:datatype="&xsd;string">lower side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000002</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Consider merging with inferior side.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lower</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000003 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000003">
+        <rdfs:label rdf:datatype="&xsd;string">deep side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000003</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">deep</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000004 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000004">
+        <rdfs:label rdf:datatype="&xsd;string">superficial side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000004</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">superficial</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000006 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000006">
+        <rdfs:label rdf:datatype="&xsd;string">anatomical margin</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000006</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Fiat anatomical region extending a short distance from the boundary of an object inwards.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">edge</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000007 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000007">
+        <rdfs:label rdf:datatype="&xsd;string">right side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000007</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The side of an organism that is right of the sagittal plane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">right</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000022 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000022">
+        <rdfs:label rdf:datatype="&xsd;string">superior side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000022</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The side that is higher relative to the substrate.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">cranial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">superior</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000025 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000025">
+        <rdfs:label rdf:datatype="&xsd;string">inferior side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000025</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The side that is lower relative to the substrate.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">caudal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">inferior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000026 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000026">
+        <rdfs:label rdf:datatype="&xsd;string">antero-dorsal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:01:38Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the anterior and dorsal regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000026</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterodorsal region </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000027 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000027">
+        <rdfs:label rdf:datatype="&xsd;string">antero-ventral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:04:59Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the anterior and ventral regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000027</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anteroventral region </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000028 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000028">
+        <rdfs:label rdf:datatype="&xsd;string">postero-lateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000082"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:06:01Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the posterior and lateral regions of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000028</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterolateral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000029 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000029">
+        <rdfs:label rdf:datatype="&xsd;string">antero-lateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000082"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:07:18Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the anterior and lateral regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000029</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterolateral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000030 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000030">
+        <rdfs:label rdf:datatype="&xsd;string">postero-dorsal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:08:13Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the posterior and dorsal regions of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000030</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterodorsal region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000031 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000031">
+        <rdfs:label rdf:datatype="&xsd;string">upper region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000031</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000032 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000032">
+        <rdfs:label rdf:datatype="&xsd;string">lower region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000032</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000033 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000033">
+        <rdfs:label rdf:datatype="&xsd;string">deep region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region located deep within an organism or structure.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000033</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000034 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000034">
+        <rdfs:label rdf:datatype="&xsd;string">superficial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region superficially located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000034</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000035 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000035">
+        <rdfs:label rdf:datatype="&xsd;string">postero-ventral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-15T01:08:38Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the posterior and ventral regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000035</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posteroventral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000036 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000036">
+        <rdfs:label rdf:datatype="&xsd;string">anterior-most region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-16T08:49:03Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000036</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterior-most</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anteriormost</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000037 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000037">
+        <rdfs:label rdf:datatype="&xsd;string">posterior-most region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-16T08:49:50Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000037</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterior-most</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posteriormost</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000038 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000038">
+        <rdfs:label rdf:datatype="&xsd;string">dorsal-most region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-16T08:50:26Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000038</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsal-most</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsalmost</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000039 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000039">
+        <rdfs:label rdf:datatype="&xsd;string">ventral-most region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-06-16T08:51:07Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000039</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventral-most</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventralmost</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000042 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000042">
+        <rdfs:label rdf:datatype="&xsd;string">antero-medial margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000050"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000671"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000683"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:49:57Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the antero-medial region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000042</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anteromedial margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000045 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000045">
+        <rdfs:label rdf:datatype="&xsd;string">antero-lateral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000029"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000671"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000682"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:50:37Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the antero-lateral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000045</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterolateral margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000046 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000046">
+        <rdfs:label rdf:datatype="&xsd;string">postero-medial margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000064"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000672"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000683"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:51:07Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the postero-medial region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000046</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posteromedial margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000047 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000047">
+        <rdfs:label rdf:datatype="&xsd;string">postero-lateral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000028"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000672"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000682"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:51:42Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the postero-lateral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000047</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterolateral margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000048 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000048">
+        <rdfs:label rdf:datatype="&xsd;string">dorso-medial margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000069"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000679"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000683"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:52:04Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the dorso-medial region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000048</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorso-medial margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000049 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000049">
+        <rdfs:label rdf:datatype="&xsd;string">ventro-medial margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000112"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000683"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000684"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:52:48Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the ventro-medial region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000049</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventromedial margin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000050 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000050">
+        <rdfs:label rdf:datatype="&xsd;string">antero-medial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000083"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:55:32Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the anterior and medial regions of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000050</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anteromedial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000054 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000054">
+        <rdfs:label rdf:datatype="&xsd;string">anatomical side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical region bounded by a plane perpendicular to an axis through the middle.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000054</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005841</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000055 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000055">
+        <rdfs:label rdf:datatype="&xsd;string">anterior side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical region that is the entire part of an anatomical structure anterior to a transverse plane and bounded on one side by the same transverse plane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000055</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000053</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005848</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">rostral</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000056 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000056">
+        <rdfs:label rdf:datatype="&xsd;string">posterior side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical region that is the entire part of an anatomical structure posterior to a transverse plane and bounded on one side by the same transverse plane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000056</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005849</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">caudal</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000057 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000057">
+        <rdfs:label rdf:datatype="&xsd;string">apical side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical side that is located on the apical end of an organism or structure.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000057</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005854</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">apical</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000058 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000058">
+        <rdfs:label rdf:datatype="&xsd;string">basal side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical side that is located on the basal end of an organism or structure.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000058</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005855</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">The part of the organism attached to a substrate. Axis of symmetry.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">basal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000059 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000059">
+        <rdfs:label rdf:datatype="&xsd;string">central side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical side that is centrally located on an organism or structure.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000059</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00015851</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">central</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">central is not an axis direction</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000060 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000060">
+        <rdfs:label rdf:datatype="&xsd;string">contralateral side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000060</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000057</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005851</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">On the opposite side.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">contralateral</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="&xsd;string">inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000061 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000061">
+        <rdfs:label rdf:datatype="&xsd;string">proximal side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000061</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005852</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">proximal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000062 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000062">
+        <rdfs:label rdf:datatype="&xsd;string">distal side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical side that is distally located on an organism or structure.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000062</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005853</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">distal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000063 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000063">
+        <rdfs:label rdf:datatype="&xsd;string">dorsal side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical region that is the entire part of an anatomical structure dorsal to a horizontal plane and bounded on one side by the same transverse plane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000063</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005842</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000064 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000064">
+        <rdfs:label rdf:datatype="&xsd;string">postero-medial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000083"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:56:39Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the posterior and medial regions of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000064</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posteromedial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000065 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000065">
+        <rdfs:label rdf:datatype="&xsd;string">ipsilateral side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000065</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000062</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005850</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">On the same side</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ipsilateral</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000066 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000066">
+        <rdfs:label rdf:datatype="&xsd;string">lateral side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000066</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005844</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lateral</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000067 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000067">
+        <rdfs:label rdf:datatype="&xsd;string">medial side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000067</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005847</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">a point in the centre of the organism (where the left-right axis intersects the midsagittal plane)</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">medial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000068 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000068">
+        <rdfs:label rdf:datatype="&xsd;string">ventral side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical region that is the entire part of an anatomical structure ventral to a horizontal plane and bounded on one side by the same horizontal plane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000068</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBcv:0000070</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005843</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventral</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000069 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000069">
+        <rdfs:label rdf:datatype="&xsd;string">dorso-medial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000083"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:57:22Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the dorsal and medial regions of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000069</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsomedial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000070 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000070">
+        <rdfs:label rdf:datatype="&xsd;string">anatomical region</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 3D region in space without well-defined compartmental boundaries; for example, the dorsal region of an ectoderm.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000070</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005841</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <rdfs:comment rdf:datatype="&xsd;string">to be merged into CARO</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000071 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000071">
+        <rdfs:label rdf:datatype="&xsd;string">anterior region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region anteriorly located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000071</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005848</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000072 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000072">
+        <rdfs:label rdf:datatype="&xsd;string">posterior region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region posteriorly located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000072</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005849</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000073 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000073">
+        <rdfs:label rdf:datatype="&xsd;string">apical region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region located on the apical end on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000073</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005854</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000074 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000074">
+        <rdfs:label rdf:datatype="&xsd;string">basal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region located basally on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000074</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005855</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000075 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000075">
+        <rdfs:label rdf:datatype="&xsd;string">central region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region centrally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000075</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00015851</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000076 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000076">
+        <rdfs:label rdf:datatype="&xsd;string">contralateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000076</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005851</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">inherited from flybase cv. not clear how this would be used</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000077 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000077">
+        <rdfs:label rdf:datatype="&xsd;string">proximal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region proximally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000077</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005852</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000078 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000078">
+        <rdfs:label rdf:datatype="&xsd;string">distal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region distally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000078</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005853</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000079 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000079">
+        <rdfs:label rdf:datatype="&xsd;string">dorsal region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region dorsally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000079</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005842</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000080 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000080">
+        <rdfs:label rdf:datatype="&xsd;string">dorso-lateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the dorsal and lateral regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000080</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005845</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsolateral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000081 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000081">
+        <rdfs:label rdf:datatype="&xsd;string">ipsilateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000081</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005850</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000082 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000082">
+        <rdfs:label rdf:datatype="&xsd;string">lateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region laterally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000082</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005844</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000083 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000083">
+        <rdfs:label rdf:datatype="&xsd;string">medial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region medially located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000083</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005847</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000084 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000084">
+        <rdfs:label rdf:datatype="&xsd;string">ventral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region ventrally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000084</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005843</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000085 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000085">
+        <rdfs:label rdf:datatype="&xsd;string">ventro-lateral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000082"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region that overlaps the ventral and lateral regions of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000085</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBql:00005846</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">This is an example of a composition of two axis positions.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventrolateral region</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000112 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000112">
+        <rdfs:label rdf:datatype="&xsd;string">ventro-medial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000083"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2009-09-10T08:57:54Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000112</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">Melissa  Haendel</oboInOwl:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The region corresponding to the ventral region of the entity, towards the midline.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">medioventral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventromedial region</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000127 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000127">
+        <rdfs:label rdf:datatype="&xsd;string">peripheral region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical region peripherally located on the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000127</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000128 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000128">
+        <rdfs:label rdf:datatype="&xsd;string">axial region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000070"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000128</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000129 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000129">
+        <rdfs:label rdf:datatype="&xsd;string">peripheral side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000129</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000130 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000130">
+        <rdfs:label rdf:datatype="&xsd;string">axial side</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000054"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000130</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000671 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000671">
+        <rdfs:label rdf:datatype="&xsd;string">anterior margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000071"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the anterior side of a body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000671</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000672 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000672">
+        <rdfs:label rdf:datatype="&xsd;string">posterior margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000072"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the posterior side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000672</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000673 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000673">
+        <rdfs:label rdf:datatype="&xsd;string">apical margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000073"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the apical side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000673</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000674 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000674">
+        <rdfs:label rdf:datatype="&xsd;string">basal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000074"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the basal side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000674</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000677 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000677">
+        <rdfs:label rdf:datatype="&xsd;string">proximal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000077"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the proximal region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000677</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000678 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000678">
+        <rdfs:label rdf:datatype="&xsd;string">distal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000078"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the distal side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000678</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000679 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000679">
+        <rdfs:label rdf:datatype="&xsd;string">dorsal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000079"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the dorsal side of body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000679</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000680 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000680">
+        <rdfs:label rdf:datatype="&xsd;string">dorso-lateral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000080"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000679"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000682"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the dorso-lateral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000680</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dorsolateral margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000682 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000682">
+        <rdfs:label rdf:datatype="&xsd;string">lateral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000082"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the lateral side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000682</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000683 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000683">
+        <rdfs:label rdf:datatype="&xsd;string">medial margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000083"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the medial side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000683</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000684 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000684">
+        <rdfs:label rdf:datatype="&xsd;string">ventral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000006"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000084"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the ventral side of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000684</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000685 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000685">
+        <rdfs:label rdf:datatype="&xsd;string">ventro-lateral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000085"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000682"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000684"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the ventro-lateral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000685</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">This is an example of a composition of two axis positions</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ventrolateral margin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000686 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000686">
+        <rdfs:label rdf:datatype="&xsd;string">antero-dorsal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000026"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000671"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000679"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the antero-dorso region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000686</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anterodorsal margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000687 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000687">
+        <rdfs:label rdf:datatype="&xsd;string">postero-dorsal margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000030"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000672"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000679"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the postero-dorsal region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000687</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posterodorsal margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000688 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000688">
+        <rdfs:label rdf:datatype="&xsd;string">antero-ventral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000027"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000671"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000684"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the antero-ventral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000688</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anteroventral margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000689 -->
+
+    <owl:Class rdf:about="&obo;BSPO_0000689">
+        <rdfs:label rdf:datatype="&xsd;string">postero-ventral margin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000035"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000672"/>
+        <rdfs:subClassOf rdf:resource="&obo;BSPO_0000684"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical margin that is located on the postero-ventral region of the body or body part.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">BSPO:0000689</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">posteroventral margin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">spatial</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;bspo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
