@@ -3,6 +3,8 @@
 1.  Logical axioms for three classes of microbiological culture media are not functioning.
 
 2.  There are a number of new terms that are being requested for entry into ChEBI.  Temporary terms are located under the class "ChEBI terms to be added and processed"
+(update Sept 26 2015: request to ChEBI has been made = Tracker # [chebi:curator-requests] #2466.  Once terms are entered into ChEBI the temporary items in MicrO will be replaced).
+
 
 3.  External ontologies are currently being imported using temporary owl files (created by OntoFox) in the "MicrO and Import Modules" folder.  Once the domain name request has been approved and purl addresses assigned, these will be replaced.
 
