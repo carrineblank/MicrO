@@ -18,7 +18,7 @@ Contains ~ 1,550 terms and term definitions, along with thousands of term synony
 
 
 
-Many thanks to Chris Mungall (UC Berkeley), Elvis Hsin-Hui Wu (University of Arizona), Gail Gasparich (Towson University), and Gordon Burleigh (University of Florida) for comments and/or assistance with ontology construction and compilation of taxonomic descriptions.
+Many thanks to Chris Mungall (LBNL), Elvis Hsin-Hui Wu (University of Arizona), Gail Gasparich (Towson University), and Gordon Burleigh (University of Florida) for comments and/or assistance with ontology construction and compilation of taxonomic descriptions.
 
 Thanks to Oliver He (University of Michigan) for technical assistance with OntoBee and OntoFox, and Gareth Owen (ChEBI project leader, head curator) and other curators at ChEBI for assistance in the incorporation of microbial-specific chemical terms and synonyms into ChEBI.
 
