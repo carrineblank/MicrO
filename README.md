@@ -1,12 +1,12 @@
 # MicrO
-An Ontology of Phenotypic and Metabolic Characters Found in Prokaryotic Taxonomic Descriptions
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters
 
 
 
 Created by Carrine E. Blank, University of Montana, fall 2013 through summer 2015. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore 
 (University of Southern Maine), and Ramona Walls (University of Arizona).
 
-Includes terms and term synonyms extracted from > 1500 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes and Mollicutes.
+Includes terms and term synonyms extracted from > 1500 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes, and Mollicutes.
 
 The ontology and the synonym lists were developed to facilitate the automated extraction of phenotypic data and character states from prokaryotic taxonomic descriptions using a natural language processing algorithm (MicroPIE).  MicroPIE is currently being developed by Hong Cui, Elvis Hsin-Hui Wu, and Jin Mao (University of Arizona) in collaboration with Carrine E. Blank (University of Montana) and Lisa R. Moore (University of Southern Maine).
 
