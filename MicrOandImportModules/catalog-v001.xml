@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-3.Sept21.owl" uri="ChEBI-3.Sept21.owl"/>
+    <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-2.Oct6.owl" uri="ChEBI-2.Oct6.owl"/>
+    <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-1.Oct6.owl" uri="ChEBI-1.Oct6.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo.owl" uri="BFO.Sept29.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/GO.Sept28.owl" uri="GO.Sept28.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/Uberon.Sept10.owl" uri="Uberon.Sept10.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/BSPO.Sept21.owl" uri="BSPO.Sept21.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-3.Sept21.owl" uri="ChEBI-3.Sept21.owl"/>
-    <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-1.Sept21.owl" uri="ChEBI-1.Sept21.owl"/>
-    <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/ChEBI-2-Sept21.owl" uri="ChEBI-2.Sept21.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/PATO.Sept18.2015.owl" uri="PATO.Sept18.2015.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/NCBITax.Sept18.2015.owl" uri="NCBITax.Sept18.2015.owl"/>
     <uri id="User Edited Redirect" name="http://ontofox.hegroup.org/OBI.Sept14.2015.owl" uri="OBI.Sept14.owl"/>
