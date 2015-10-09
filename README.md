@@ -14,7 +14,7 @@ A description and link to MicroPIE can be found at http://avatol.org/ngp/nlp/ove
 
 
 
-Contains ~ 1,550 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~10,240 terms from 13 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >20,500 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
+Contains ~ 1,560 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~10,240 terms from 13 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >20,500 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
 
 
 
