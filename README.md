@@ -38,6 +38,6 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 
 
-****NOTICE REGARDING IRI ADDRESSES***
+***NOTICE REGARDING IRI ADDRESSES***
 
 IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary.  They will be replaced with the correct purl addresses, once a domain name has been approved by OBO (request is pending in the OBO-Discuss-List), and after we have better acquainted ourselves with OBO purl conventions!  
