@@ -31,3 +31,5 @@ __OBO Foundry Tasks:
 1) Request name space and permanent URLs
 
 2) Update OWL file to include PURLs
+
+3) Currently there are two 'has part' terms, one imported with ChEBI and the other by RO and ENVO import modules.  This should be resolved when the temporary IRIs are replaced by the correct purl addresses.
