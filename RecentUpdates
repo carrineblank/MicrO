@@ -1,0 +1,2 @@
+Updated Oct 14, 2015:
+Replaced MicrO Object Property 'has unit' with IAO term 'has measurement unit label'and Data Property 'has magnitude' with IAO term 'has measurement value'.  Updated term usages across the ontology.  
