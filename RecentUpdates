@@ -1,2 +1,5 @@
 Updated Oct 14, 2015:
-Replaced MicrO Object Property 'has unit' with IAO term 'has measurement unit label'and Data Property 'has magnitude' with IAO term 'has measurement value'.  Updated term usages across the ontology.  
+Replaced MicrO Object Property 'has unit' with IAO term 'has measurement unit label'and Data Property 'has magnitude' with IAO term 'has measurement value'.  Updated term usages across the ontology. 
+
+Added note to README document Notice Regarding IRI Addresses: IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary. They will be replaced with the correct purl addresses, once a domain name has been approved by OBO (request is pending in the OBO-Discuss-List), and after we have better acquainted ourselves with OBO purl conventions! 
+
