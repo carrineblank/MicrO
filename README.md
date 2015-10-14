@@ -28,7 +28,7 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 
 
-***TO DOWLOAD***
+*** TO DOWLOAD ***
 
 1.  Download the folder "MicrOandImportModules"
 
@@ -36,3 +36,8 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 3.  Once executed you can then run the reasoner.
 
+
+
+**** NOTICE REGARDING IRI ADDRESSES ***
+
+IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary.  They will be replaced with the correct purl addresses, once a domain name has been approved by OBO (request is pending in the OBO-Discuss-List), and after we have better acquainted ourselves with OBO purl conventions!  
