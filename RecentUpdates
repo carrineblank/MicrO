@@ -1,3 +1,6 @@
+Updated Oct 15, 2015:
+Added some additional microbiological culture medium recipes (basal cellulolytic medium, sporocytophaga medium, anaerobe basal agar, PYG broth).  Added Balch trace element solution and several new temp classes to be added to ChEBI.  Clarified a few logical axioms regarding cellulose as microbiological culture medium ingredients.  Added several new classes of undefined organic chemical mixtures and revised logical axioms.  Added trans-aconitate asimilation assay, aconitate assimilation assay, alph-aminobutyrate assimilation assay, and polyethylene glycol assimilation assay, beta-glucuronidase assay with 4-MU, 6-phospho-beta-galactosidase assay, 6-phospho-beta-galatosidase assay with oNP, alpha-galactosidase assay with 4-MU, beta-glucosidase assay with 4-MU, butyrate esterase assay, hydrolase assay, DNAse assay with indoxyl, DNase assay with pNP.  Improved definitions for enzymatic assay classes.
+
 Updated Oct 14, 2015:
 Replaced MicrO Object Property 'has unit' with IAO term 'has measurement unit label'and Data Property 'has magnitude' with IAO term 'has measurement value'.  Updated term usages across the ontology. 
 
