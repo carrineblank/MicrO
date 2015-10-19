@@ -1,0 +1,20 @@
+Notes from initial Coordination Call with OBI-Devel on 10/17/2015:
+
+Carrine and Ramona working in MicrO (ontology for Microbial)
+
+    a. MicroPIE is an information extraction process
+    b. Extracted terms and synonyms concerning taxonomic descriptions 
+    c. other ontologies involved: PATO, GO + CHEBI   
+    d. A large number of Microbial assays are curated from the literature.
+    e. Carrine has attempted to convert them to OBI's underlying design, including logical axioms to terms within other ontologies
+    f. She has submitted hundreds of terms to CHEBI for inclusion 
+    g. each assay includes links to other ontologies. 
+    h. Ramona would like to look for specific points of overlap between the logical definitions used in this model for assays based on harmonizing assays.
+    i. James described templates in OBI with links and discussions (https://github.com/jamesaoverton/obi-build/blob/master/templates/epitope-assays.tsv)
+    j. Generating OWL from the template is built using James' 'robot' tool.  
+    k. We would like to follow up with Carrine to coordinate a follow up call with both Bjeorn, Chris and Jie. 
+    l. Where should we put everything? MicrO has a lot of domain-specific assays. There's and people will discuss this going forward. 
+
+Thanks everyone for participating. 
+
+Gully
