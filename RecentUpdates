@@ -1,7 +1,26 @@
-Updated Oct 15, 2015:
+
+***Updated Nov 7, 2015:
+Regarding OBI harmonization:
+
+Moved classes under 'microbiological diagnostic assay' to parent class 'assay'.
+
+Checked hierarchy of object property relationships.  'uses material entity', 'uses chemical reagent', 'uses culture medium' are indeed nested under OBI's object property 'has specified input'.  Likewise, 'produces metabolic product', 'produces enzymatic product', 'produces fermenation product' are nested under OBI's object property 'has specified output'.  Changed domains and ranges and definiations of object properties corresponding to 'microbiological diagnostic assay' to 'assay'.
+
+Fixed problem: 'uses chemical reagent' was under 'has specified output' and should have been under 'has specified input'.  There were two object properties 'uses chemical reagent' - these were consolidated into one.
+
+Added imported objecte properties 'participates in', 'is specific input of' 'is specific output of'.  Moved 'is metabolic substrate of' under OBI parent 'is specified input of'.  Moved 'is metabolic product of' under OBI parent 'is specified output of'.
+
+Also:
+
+Added classes 'prokaryotic colony', 'prokaryotic cultured clonal cell population', 'petri dish',' culture tube', 'liquid prokaryotic culture', 'slant culture'.  Added several terms from CHMO, ChEBI, NCBI Tax, OBI, and PO.  Added several new terms associated with medium ingredients derived from blood.  Added several new classes of microbiological culture media, trace element solutions, and vitamin solutions.
+
+Cleaned up object property class relationships. Streamlined logical axioms in microbiological medium ingredients and clarified names of some object properties.
+
+
+***Updated Oct 15, 2015:
 Added some additional microbiological culture medium recipes (basal cellulolytic medium, sporocytophaga medium, anaerobe basal agar, PYG broth).  Added Balch trace element solution and several new temp classes to be added to ChEBI.  Clarified a few logical axioms regarding cellulose as microbiological culture medium ingredients.  Added several new classes of undefined organic chemical mixtures and revised logical axioms.  Added trans-aconitate asimilation assay, aconitate assimilation assay, alph-aminobutyrate assimilation assay, and polyethylene glycol assimilation assay, beta-glucuronidase assay with 4-MU, 6-phospho-beta-galactosidase assay, 6-phospho-beta-galatosidase assay with oNP, alpha-galactosidase assay with 4-MU, beta-glucosidase assay with 4-MU, butyrate esterase assay, hydrolase assay, DNAse assay with indoxyl, DNase assay with pNP.  Improved definitions for enzymatic assay classes.
 
-Updated Oct 14, 2015:
+***Updated Oct 14, 2015:
 Replaced MicrO Object Property 'has unit' with IAO term 'has measurement unit label'and Data Property 'has magnitude' with IAO term 'has measurement value'.  Updated term usages across the ontology. 
 
 Added note to README document Notice Regarding IRI Addresses: IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary. They will be replaced with the correct purl addresses, once a domain name has been approved by OBO (request is pending in the OBO-Discuss-List), and after we have better acquainted ourselves with OBO purl conventions! 

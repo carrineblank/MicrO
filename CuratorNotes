@@ -1,4 +1,34 @@
-Notes from initial Coordination Call with OBI-Devel on 10/17/2015:
+***Notes from second Coordination Call with OBI-Devel on 10/17/2015:
+
+Summary of PowerPoint Presentation on MicrO:
+a.  ~570 terms for assays
+b.  Chris asks questions about -- relations.  Carrine said will put them under OBI property
+c.  Goal is to connect to ChEBI, GO, PATO, and etc.
+d.  Emphasis on synonyms for text mining, NLP to identify the named entities
+e.  Borrowed some object properties from OBI, and want to make sure it is correct.
+f.  Not using the device linkage, may borrow more object properties.
+
+Q and A session:
+Q:  What was modeled in MicrO?  But not focus on what is actually done.
+- usually MicrO measures absence of something or the enzyme activities
+- top class in mcirobio, but the underclass is more general than microbio.  Suggest to move to the higher level, such as Benzidine assay or cell staining assay.  Similar with what have been done in IEDB.
+- the principle is relabeling the general classes.  Suggest to define a defined class for microbiological assay: any assay haas a revaluant that is a microbe.  So more general terms can be reused by the other community.  For example, add microbiological to some assays such as 'diagnostic assay'
+- usage for this is for text mining to identify the named entity, such as the product or substrate.
+- OBI: maybe use specific input and output of.  Suggest to check who is parent?  It should be at least the 'has participant'.  OBI is going to get shortcut relations similar with the example showing above.  MicrO defines the domain and range specifically for these relations.
+- suggest to check Reactomes's relations for representing enzyme reactions
+Q: what is the outcome for your ontology?  Why use OBI?
+- taxonomy description for all the synonyms, so it connect to the same named entities.  Goal is to explore data matrix of informatics substrates, and it connected to the activities those entities involved.
+- NLP uses term list helps a lot, but problem persistence with the synonyms still.  A lot fo work is done on finding the synonyms.
+- in micro world, 100 years of taxonomy information are not integrated, we need to standardize them for evolution studies.
+- OBI will be interested in linking data together and finding out interesting connections
+- Make sure the interoperability between OBI and MicrO.
+- OBI community suggests couple of tools for automating ontology developing process.  The automated tools help for the maintainance of ontology artifact (tempates; vision tools -> ROBOT).  Please contact James if interested.
+
+
+
+
+
+***Notes from initial Coordination Call with OBI-Devel on 10/17/2015:
 
 Carrine and Ramona working in MicrO (ontology for Microbial)
 
