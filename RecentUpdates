@@ -1,7 +1,9 @@
 ***Updated Nov 29, 2015:
 Removed dates in MicrO.owl file and in import modules.
 
-Coreected Tracker Item #9 (Terms with incorrect IRIs).
+Corrected Tracker Item #9 (Terms with incorrect IRIs).
+
+Corrected Tracker Item #8 (replace # in term IRIs with /)
 
 ***Updated Nov 10, 2015:
 Added several new classes of trace element solutions, vitamin solutions, microbiological culture media, 'undefined inorganic chemical mixture', 'sea salts', 'fetal calf serum', 'calf serum', 'charcoal filter, 'charcoal filtered seawater'
