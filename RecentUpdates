@@ -1,3 +1,17 @@
+***Updated Nov 29, 2015:
+Removed dates in MicrO.owl file and in import modules.
+
+***Updated Nov 10, 2015:
+Added several new classes of trace element solutions, vitamin solutions, microbiological culture media, 'undefined inorganic chemical mixture', 'sea salts', 'fetal calf serum', 'calf serum', 'charcoal filter, 'charcoal filtered seawater'
+
+Am systematically adding all DSMZ medium recipes as classes.
+
+Imported additional terms from Uberon.
+
+Starting the transition of moving away from file names that have the date in them.
+
+Cleaned up logical definitions for culture media (double-checking correct inorganic chemicals).
+
 
 ***Updated Nov 7, 2015:
 Regarding OBI harmonization:
