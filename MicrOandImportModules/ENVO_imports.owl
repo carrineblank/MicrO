@@ -23,7 +23,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:envo="&obo;envo#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/ENVO.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/ENVO_imports.owl"/>
     
 
 
@@ -6753,14 +6753,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000408"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000255"/>
+                <owl:onProperty rdf:resource="&obo;ENVO_01001307"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000710"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ENVO_01001307"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000710"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000255"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Area of a flood plane covered by the flood, but which does not experience a strong current.</obo:IAO_0000115>
@@ -7225,12 +7225,6 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000649"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -7240,6 +7234,12 @@
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -8204,14 +8204,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002871"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000258"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000258"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A fan-shaped deposit formed where a fast flowing stream flattens, slows, and spreads typically at the exit of a canyon onto a flatter plain.</obo:IAO_0000115>
@@ -9387,13 +9387,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000688"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000020"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000688"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -10077,14 +10077,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000176"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000293"/>
+                <owl:onProperty rdf:resource="&obo;ENVO_01001307"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001998"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ENVO_01001307"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001998"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000293"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A mound of earth-covered ice found in the Arctic, subarctic, and Antarctica that can reach up to 70 metres in height and up to 2 kilometres in diameter.</obo:IAO_0000115>
@@ -12945,15 +12945,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf rdf:resource="&obo;ENVO_00000134"/>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="&obo;ENVO_01000635"/>
             </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="&obo;ENVO_00000134"/>
+            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An area of unfrozen ground surrounded by permafrost.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -13365,6 +13365,18 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ENVO_01000155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13377,19 +13389,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;ENVO_01000256"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -13437,13 +13437,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000176"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000309"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -14509,14 +14509,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000283"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000199"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002132"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002132"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000199"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -14536,14 +14536,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000283"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002132"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000199"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000199"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002132"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -22334,14 +22334,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000155"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000138"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001998"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001998"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
@@ -23368,14 +23368,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000408"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002149"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00001999"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-03-16T12:16:11Z</oboInOwl:creation_date>
@@ -24457,14 +24457,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000408"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000125"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000410"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000410"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000125"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-03-17T09:01:45Z</oboInOwl:creation_date>
@@ -24704,12 +24704,6 @@
         <rdfs:subClassOf rdf:resource="&obo2;ENVO_01000549"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002219"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001025"/>
                 <owl:someValuesFrom rdf:resource="&obo;ENVO_00000063"/>
             </owl:Restriction>
@@ -24718,6 +24712,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002220"/>
                 <owl:someValuesFrom rdf:resource="&obo;ENVO_00000501"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002219"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-03-20T06:25:30Z</oboInOwl:creation_date>
@@ -24758,14 +24758,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000501"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000063"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-03-20T06:26:07Z</oboInOwl:creation_date>
@@ -26748,14 +26748,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00000300"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000230"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000097"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000097"/>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000230"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2013-06-06T15:02:30Z</oboInOwl:creation_date>
@@ -27120,13 +27120,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000482"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000426"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002220"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000426"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00000482"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2013-10-06T21:16:39Z</oboInOwl:creation_date>
@@ -29346,14 +29346,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000430"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000202"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000202"/>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="&xsd;string">This class is one of the forest types as identified by the updated Global Forest Map (GFM 2000).</rdfs:comment>
@@ -29369,14 +29369,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000433"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000211"/>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="&xsd;string">This class is one of the forest types as identified by the updated Global Forest Map (GFM 2000).</rdfs:comment>
@@ -29441,12 +29441,6 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000431"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -29456,6 +29450,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="&xsd;string">This class corresponds to  the &quot;Temperate Mixed broadleaf / needleleaf forest&quot; category of the updated Global Forest Map classification (GFM 2000). To reconstruct the original class, an aggregate class with this and the &quot;temperate mixed needleleaf forest&quot; class can be made.</rdfs:comment>
@@ -29471,14 +29471,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000431"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000212"/>
+                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;envo#has_condition"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000206"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000212"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="&xsd;string">This class corresponds to  the &quot;Temperate Mixed broadleaf / needleleaf forest&quot; category of the updated Global Forest Map classification (GFM 2000). To reconstruct the original class, an aggregate class with this and the &quot;temperate mixed broadleaf forest&quot; class can be made.</rdfs:comment>
@@ -29856,6 +29856,12 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000408"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002220"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -29865,12 +29871,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000125"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The eulittoral zone extends from the spring high tide line, which is rarely inundated, to the spring low tide line, which is rarely not inundated. The wave action and turbulence of recurring tides shapes and reforms cliffs, gaps, and caves, offering a huge range of habitats for sedentary organisms.</obo:IAO_0000115>
@@ -30594,13 +30594,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000472"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000469"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000469"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000472"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:created_by rdf:datatype="&xsd;string">ORCID:0000-0002-4366-3088</oboInOwl:created_by>
@@ -31093,14 +31093,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000469"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000474"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000475"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000475"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000474"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A brick exterior wall is an exterior wall that is built from bricks.</obo:IAO_0000115>
@@ -31142,14 +31142,14 @@
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01000500"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000474"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000501"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000474"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A burnt brick exterior wall is an exterior wall that is built from burnt bricks.</obo:IAO_0000115>
@@ -35199,12 +35199,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000541"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
@@ -35222,6 +35216,12 @@
                         <owl:someValuesFrom rdf:resource="&obo2;ENVO_01000546"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000541"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:created_by>ORCID:0000-0002-4366-3088</oboInOwl:created_by>
