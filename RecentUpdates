@@ -1,3 +1,9 @@
+***Updated Nov 30, 2015:
+Renamed import module files to BSPO_imports.owl
+
+Replaced import files with the URLs of the imports (correcting Tracker Item #5).
+
+
 ***Updated Nov 29, 2015:
 Removed dates in MicrO.owl file and in import modules.
 

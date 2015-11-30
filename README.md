@@ -30,7 +30,7 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 ***TO DOWLOAD***
 
-1.  Download the folder "MicrOandImportModules"
+1.  Download the MicrO.owl file in the folder "MicrOandImportModules"
 
 2.  Execute MicrO.owl using Protege v. 4.3 or Protege v. 5.0.0 (runs in beta 17).
 
@@ -40,4 +40,4 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 ***NOTICE REGARDING IRI ADDRESSES***
 
-IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary.  They will be replaced with the correct purl addresses, once a domain name has been approved by OBO (request is pending in the OBO-Discuss-List), and after we have better acquainted ourselves with OBO purl conventions!  
+IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary.  They will be replaced with purl addresses soon.
