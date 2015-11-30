@@ -1,0 +1,1604 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/CHMO.owl#"
+     xml:base="http://ontofox.hegroup.org/CHMO.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/CHMO.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001464">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ageing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any time-dependent change of the properties of a precipitate e.g. loss of water or growth of crystals as a result of prolonged heat treatment.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001464</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age hardening</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersion hardening</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precipitate ageing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precipitation hardening</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001489">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001489</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of a sample into liquid form by treatment with enzymes or strong acids or alkalis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001490">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wet digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001489"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-05-27T10:55:29Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001490</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of a sample by the addition of liquid reagents in order to solubilise it.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WD</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001491">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001490"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001491</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of a sample in strong acids such as nitric, sulfuric or perchloric acid in order to obtain the sample in liquid form.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid-digestion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001492">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bomb digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001491"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001492</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of a sample in strong acids such as nitric, sulfuric or perchloric acid in a sealed vessel (lined with PTFE), under high pressure and high temperature, in order to obtain the sample in liquid form.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bomb-digestion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001493">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001490"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001493</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decompositon of a sample in strong alkalis (e.g. NaOH) to obtain the sample in liquid form.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkali digestion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001494">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001489"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001494</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of sample by an enzyme to obtain the sample in liquid form.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzymic digestion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001495">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial sample digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001489"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001495</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of only part of a sample by the addition of liquid reagents to solubilise it.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001496">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001489"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001496</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The assisted solubilisation of a sample by the application of radiation in the 1-1000 mm region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave oven digestion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave sample digestion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave-assisted digestion</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001497">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultraviolet photolysis digestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001489"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001497</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The decomposition of a sample by placing it in an organic matrix and irradiating the matrix with radiation in the range 200-435 nm (indirectly, using a mirror). OH radicals generated from the matrix react with the sample, degrading it. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV photolysis digestion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UVPD</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001528">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dissection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001528</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The disassembly of an object to determine its internal structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomization</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001549">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001549</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of removing a solvent from a substance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drying</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dielectric drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001550</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample by the application of radio frequency (3 Hz to 300 GHz) or microwave (1--1000 mm) radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002124"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001551</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample by the application of heated air.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001552">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drum drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001552</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample by applying it as a thin layer to the surface of a heated drum.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freeze drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001553</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample without passing through the liquid--gas boundary. The sample is frozen at liquid nitrogen temperature (-80 deg. C) then the surrounding pressure is reduced to allow the water in the sample to sublime.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryodesiccation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freeze-drying</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lyophilization</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oven drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001554</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample by heating in an oven.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001555">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spray drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001555</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of water from a liquid sample by pumping it through an atomiser (to produce a spray of fine droplets) then passing a hot gas (e.g. air or N2) through it.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spray-drying</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001556</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample without passing through the liquid--gas boundary, by immersion in a supercritical fluid and de-pressurisation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical point drying</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical-point drying</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">super-critical point drying</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001557">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vacuum drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001557</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of water from a sample by placing it under reduced pressure. This allows water to evaporate from (heat-sensitive) samples at a lower temperature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001574">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evaporation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001574</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The physical process by which a liquid substance is converted to a gas or vapour. This may occur at or below the normal boiling point of the liquid (the temperature at which a liquid boils at 1 atmosphere pressure) and the process is endothermic.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001577">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001577</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from a liquid phase to another immiscible or partially-miscible liquid phase in contact with it.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001578">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001578</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of two solutes from a liquid phase to a (low-polarity) organic liquid phase in contact with it. The solutes form mixed-species aggregates in the organic phase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co-extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001579">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001579</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a solid or liquid matrix to the vapour phase by heating.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamic headspace extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001579"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001580</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a solid or liquid matrix to the vapour phase by heating, and removing analytes from the headspace in a carrier gas. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purge and trap</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purge and trap extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001581">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple headspace extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001579"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001581</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a solid or liquid matrix to the vapour phase by heating. Once the concentration of the analyte in the headspace is in equilibrium with the concentration in the sample matrix, the headspace is removed. The process is repeated multiple times, allowing the new equilibrium to form at each stage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001582">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">static headspace extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001579"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001582</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a solid or liquid matrix to the vapour phase by heating. Once the concentration of the analyte in the headspace is in equilibrium with the concentration in the sample matrix, the headspace is removed. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equilibrium headspace extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001583">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-solid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001583</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the liquid sample through a stationary phase (e.g. silica particles).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-solid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorbent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorptive extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001584">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal-phase solid-phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001584</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the (polar) liquid sample through a (non-polar) stationary phase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal phase SPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal phase solid-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal-phase SPE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001585">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reversed-phase solid-phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001585</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the (non-polar) liquid sample through a (polar) stationary phase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse phase SPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse phase solid-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse-phase SPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse-phase solid-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reversed phase SPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reversed-phase SPE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001586">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001586</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the liquid sample through a small fibre containing a stationary phase bonded to a silica needle (&lt;10 \mum diameter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-phase microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001587">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capillary micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001586"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001587</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the liquid sample through a small fused-silica capillary.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capillary microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001588">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sol--gel capillary micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001587"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001588</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the liquid sample through a small sol--gel-coated fused-silica capillary.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sgCME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sol-gel CME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sol-gel capillary micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sol-gel capillary microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solgel CME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solgel capillary microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001589">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace solid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001586"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001589</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSSE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by exposing a small fibre containing a stationary phase bonded to a silica needle (&lt;10 \mum diameter) to the headspace above the liquid sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hSPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace solid-phase micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace solid-phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace sorptive extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001590">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro-extraction in a packed syringe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001586"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001590</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPS</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by passing the liquid sample through a stationary phase (1 mg) packed into a microlitre syringe.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro extraction by packed sorbent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro-extraction in packed syringe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microextraction in a packed syringe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microextraction in packed syringe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packed syringe micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packed syringe microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packed-syringe micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packed-syringe microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001591">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir-bar solid-phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001591</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBSE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a liquid to a solid phase by attaching a stationary phase to a stir bar which moves throughout the liquid sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid pahse stir bar extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid phase stir-bar extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-phase stir bar extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-phase stir-bar extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir bar extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir bar solid phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir bar solid-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir bar sorptive extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir-bar solid phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stir-bar sorptive extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001592">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic bead extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method for extracting biological molecules from a biological sample by functionalising a magnetic bead (0.001--200 \mum diameter) with a molecule specific to the target molecule (e.g. complementary DNA or a specific antibody) and placing it in the sample solution. The bead is removed from the solution using a magnetized source.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001592</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic separation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic-bead extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001593">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001593</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from one phase (the &#39;donor&#39; or &#39;feed&#39; phase) to another (the &#39;acceptor&#39; or &#39;strip&#39; phase) across a nonporous membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane extraction with a sorbent interface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001593"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001594</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESI</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from one phase (the &#39;donor&#39; or &#39;feed&#39; phase) to another (the &#39;acceptor&#39; or &#39;strip&#39; phase) across a non-porous non-polar polymer membrane. The membrane first extracts the analytes from their matrix, and these are subsequently trapped on a polymeric trap with a porous sorbent using a carrier gas stream.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane extraction sorbent interface</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane extraction with sorbent interface</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane extraction with trapping on a sorbent interface</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001595">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymeric membrane extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001593"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001595</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from one phase (the &#39;donor&#39; or &#39;feed&#39; phase) to another (the &#39;acceptor&#39; or &#39;strip&#39; phase) across a nonporous sillicon rubber membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001596">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supported liquid membrane extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001593"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001596</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLM extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from one phase (the &#39;donor&#39; or &#39;feed&#39; phase) to another (the &#39;acceptor&#39; or &#39;strip&#39; phase) across a non-porous liquid membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supported liquid membrane (SLM) extraction </oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001597">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequentional extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analytical process that sequentially chemically leaches metals from soils, sludges or sediments.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001597</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequential chemical extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001598">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solvent extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001598</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix to an appropriate liquid phase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001599">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gas--liquid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flotation process in which the material of interest, adsorbed on the surface of gas bubbles in a liquid, is collected on an upper layer of immiscible liquid.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001599</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gas-liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sublation</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001600">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid--liquid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001600</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a dissolved substance from one liquid phase to another (immiscible or partially miscible) liquid phase in contact with it.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid distribution</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid partition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-phase extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001601">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud-point extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001600"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001601</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a non-ionic surfactant from one liquid phase to another by heating. As the temperature of the solution rises, the surfactant molecules form micelles, if the temperature increases above the cloud point (CPT) the micelles become dehydrated and aggregate. This leads to macroscopic phase separation of the solution into a surfactant-rich phase and a solvent phase. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud point extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001602">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001600"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002806"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001602</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a microlitre amount of a substance from an aqueous phase to an organic phase (or vice versa).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid phase micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001603">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-drop micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001600"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002806"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001603</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SDME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a dissolved substance from one liquid phase to another (immiscible or partially miscible) liquid phase in contact with it. A microdrop of organic solvent (8 \muL), is suspended from the end of Teflon rod immersed in a stirred aqueous solution of the sample. The sample solution is stirred until equilibrium is reached, after which, the drop is retracted into the Teflon rod. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single drop microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-drop microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001604">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised-fluid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001600"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001604</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PFE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PSE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a dissolved substance from one liquid phase to another (immiscible or partially miscible) liquid phase in contact with it using solvents at elevated temperature (50--200 deg. C) and pressure (7--20 MPa).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accelerated solvent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accelerated-solvent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised fluid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised solvent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised-liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurised-solvent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized fluid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized solvent extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized-fluid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized-liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressurized-solvent extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001605">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microporous membrane liquid--liquid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001600"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001605</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMLLE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a solute from one phase (the &#39;donor&#39; or &#39;feed&#39; phase) to another (organic) phase (the &#39;acceptor&#39; or &#39;strip&#39; phase) across a porous hydrophobic membrane the pores of which are filled with the same acceptor phase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microporous membrane liquid-liquid extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microporous membrane solvent extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001606">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shake-flask extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001606</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix to an appropriate liquid phase, during which the sample and solvent are kept in contact in a mechanical shaker.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shake flask extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001607">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid--liquid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001607</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring the soluble components of a solid to the liquid phase using a solvent.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-liquid extraction dry extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001608">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave-assisted extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001607"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001608</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring the organic components of a solid to an organic liquid phase. The process is accelerated by directing radiation in the microwave region (1--1000 mm) at the sample.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microwave extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001609">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soxhlet extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001607"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001609</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring the partially soluble components of a solid to the liquid phase using a Soxhlet extractor. The solid is placed in a filter paper thimble which is then placed into the main chamber of the Soxhlet extractor. The solvent (heated to reflux) travels into the main chamber and the partially soluble components are slowly tranferred to the solvent. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001610">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical fluid extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001610</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCFE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SFE</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix to a liquid phase using a supercritical fluid.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical fluid extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001611">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasound extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001611</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix to an appropriate liquid phase, assisted by sound waves (&gt;20 KHz in frequency) that propagate through the liquid media.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonic accelerated extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonic assisted extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonic extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonic-accelerated extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonic-assisted extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001612">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substoichiometric extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001612</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix to another where the amount of reagent used is lower than that dictated by stoichiometry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001624">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fermentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001624</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process in which cells (microorganisms, plant or animal cells) are cultured in a bioreactor in a liquid or solid medium to convert organic substances into biomass (growth) or into products.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001625">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fractionation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001625</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of dividing up a sample mixture into smaller quantities according to their physical (e.g. size, solubility) or chemical (e.g. bonding, reactivity) properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001640">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filtration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001640</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of segregation of phases; the separation of suspended solids from a liquid or gas, usually by forcing a carrier gas or liquid through a porous medium.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001641">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro-filtration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001640"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pressure-driven membrane-based separation process in which particles and dissolved macromolecules larger than 0.1 micrometre are rejected.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001641</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microfiltration</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001642">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nano-filtration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001640"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pressure-driven membrane-based separation process in which particles and dissolved macromolecules larger 200 Da are rejected.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001642</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanofiltration</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001643">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse osmosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001640"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A separation process which involves using pressure to force a solution through a membrane, retaining the solute on one side and allowing the pure solvent to pass to the other side. (This is the reverse of the normal osmosis process, which is the natural movement of solvent from an area of low solute concentration, through a membrane, to an area of high solute concentration.)</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001643</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001644">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suction filtration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001640"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001644</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The separation of a solid phase from a liquid phase by passing the sample through a porous medium under pressure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vacuum filtration</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001645">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultra-filtration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001640"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A separation process whereby a solution containing a solute of molecular size significantly greater than that of the solvent molecule is removed from the solvent by the application of hydraulic pressure which forces only the solvent to flow through a suitable membrane, usually having a pore size in the range 0.001--0.1 \mum.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001645</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrafiltration</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001652">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grinding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001652</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by attribution (friction), impact or cutting.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry grinding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid-state grinding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solvent-free grinding</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001653">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-assisted grinding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001652"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001653</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAG</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by attribution (friction), impact or cutting in the presence of a small amount of solvent. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solvent-drop grinding</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001654">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ball milling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001652"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001654</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by grinding with one or more inert balls (ceramic, flint, or stainless steel, 2--8 mm diameter) rotating around a horizontal axis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001655">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-speed ball milling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001654"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001655</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSBM</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by grinding with one or more inert balls (ceramic, flint or stainless steel, 2--8 mm diameter) rotating at high speed around a horizontal axis. A high-speed agitator is used to increase the speed of the balls. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high speed ball milling</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001656">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-energy ball milling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001654"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001656</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEBM</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by grinding with one or more inert balls (ceramic, flint or stainless steel, 2--8 mm diameter) rotating at high speed (up to 650 rpm) around a horizontal axis. A high-speed agitator is used to increase the speed of the balls which are held in vacuum or in an inert gas (e.g. Ar).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high energy ball milling</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001657">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wet grinding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001652"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001657</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mechanical reduction of the particle size of a solid sample by attribution (friction), impact or cutting in the presence of a small amount of liquid (which is not a solvent for the solid).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001685">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001685</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The combining of components, particles or layers into a more homogeneous state. The mixing may be achieved manually or mechanically by shifting the material with stirrers or pumps or by revolving or shaking the container. The process must not permit segregation of particles of different size or properties. Homogeneity may be considered to have been achieved in a practical sense when the sampling error of the processed portion is negligible compared to the total error of the measurement system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001987">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical carbon dioxide drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001556"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-06-18T10:00:03Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001987</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2 critical point drying</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2 critical-point drying</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2 super-critical point drying</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample without passing through the liquid--gas boundary, by immersion in supercritical CO2 and de-pressurisation.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supercritical CO2 drying</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001989">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethanol extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-06-18T10:18:25Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001989</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EtOH extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from any matrix into ethanol.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homogenisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-06-19T02:29:46Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002020</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intensive mixing of mutually insoluble phases (sometimes with addition of surfactants) to obtain a soluble suspension or emulsion.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homogenation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homogenization</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical blending</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-07-06T11:06:28Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002106</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of making a polymer blend by mechanically mixing different polymers together in the melt.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002124">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blow drying</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-07-08T04:06:02Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002124</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The removal of solvent from a sample by the application of an inert gas or air.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002364">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow fibre liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:18:02Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002364</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HF-LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HFLPME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from an aqueous phase to an organic phase immobilised within the pores of the wall of a porous hollow fibre (&lt;10 \mum diameter).</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow fiber liquid-phase micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow fiber-based liquid phase microextraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow fibre liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fiber LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fiber based LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fiber liquid-phase micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fiber liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fiber-based LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fibre LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fibre liquid-phase micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fibre liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hollow-fibre-based LPME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002365">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous flow hollow fibre liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002364"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:12:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFHF-LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002365</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from an aqueous phase to an organic phase immobilised within the pores of the wall of a porous hollow fibre (&lt;10 \mum diameter).  The aqueous phase is allowed to flow continuously through the fibre, allowing mass transfer to occur.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous flow hollow fiber liquid-phase micro-extraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous flow hollow fiber liquid-phase microextraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous flow hollow fibre liquid-phase micro-extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous-flow liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:21:04Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process for transferring a substance from an aqueous phase to an organic phase (or vice versa) by injecting one phase into a glass chamber using a conventional microsyringe and holding the \muL droplet at the outlet tip of a PTFE connecting tube. The other phase then flows continuously over the droplet, allowing mass transfer to occur.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CF-LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFME</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002366</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous flow liquid phase microextraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous-flow liquid-phase microextraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous-flow micro-extraction </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuous-flow microextraction </oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid-liquid micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:21:58Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002367</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LLLME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a microlitre amount of an ionisable substance from an aqueous phase to another aqueous phase, via an organic phase, by performing simultaneous extraction and back-extraction between the phases.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid-liquid micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid-liquid-liquid microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002368">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">static liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:27:53Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002368</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from an aqueous phase to an organic phase (or vice versa) by suspending a microlitre-sized drop of the organic phase in a large volume of the aqueous phase.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">static LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">static liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamic liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:30:44Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002369</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from an aqueous phase to an organic phase (or vice versa) by the repeated movement of a microsyringe.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamic LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynamic liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002370">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace liquid-phase micro-extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-09-15T03:33:18Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002370</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HS-LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSLPME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from an organic phase to an aqueous phase (or vice versa) by heating the organic sample within a confined space in the presence of an aqueous acceptor droplet suspended on the tip of a microsyringe.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace LPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace liquid-phase microextraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace micro-extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headspace microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002523">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vapour-phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-10-13T11:06:56Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002523</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of transferring a substance from a vapour to a solid phase by passing the vapour sample through a stationary phase (e.g. silica particles) and then desorbing it using a desorbent or carrier gas.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vapor phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vapor-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vapour phase extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002524">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-10-13T11:10:28Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extraction method for soil samples that uses a high-vacuum system to remove liquid and gas from low-permeability or heterogeneous soil. By removing water from the sample (liquid-phase extraction) the water table is lowered exposing the solid sample to vapor-phase extraction.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002524</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioslurping</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-phase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiphase extraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vacuum-enhanced extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002742">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process wherein one material is extracted from another by interaction with a solvent.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002742</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002759">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water:chloroform 2:1 extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002759</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction of plant metabolites using a 2:1 v/v mixture of water and chloroform.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002760">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water:methanol:chloroform 1:3:1 extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001598"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002760</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extraction of plant metabolites using a 1:3:1 v/v mixture of water, methanol and chloroform.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002770">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample heating</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sample preparation step involving the increase in temperature of a sample.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002770</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ought to be in OBI. Will put here pro tem.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002773">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dissolving</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mixing step where a soluble component is mixed with a liquid component.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002773</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002774">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stirring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002774</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixing involving the agitation of a solution through circular motion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002775">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic stirring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002774"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002775</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stirring achieved by rotating a magnetic stir bar in a solution.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001577"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002806</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a microlitre amount of solute from a liquid phase to another immiscible or partially-miscible liquid phase in contact with it.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micro-extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002846">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoclaving</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material processing step that involves heating apparatus in an autoclave.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002846</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">does every autoclaving happen as part of waste management?</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002863">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersive solid phase extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002863</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersive solid-phase extraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002871">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersive liquid-phase microextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001602"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002871</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLLME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLPME</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersive liquid-liquid microextraction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002872">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasound-assisted dispersive liquid-phase microextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002871"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002872</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA-DLLME</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002877">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gradient elution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002742"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002877</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002878">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isocratic elution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002742"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002878</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dispersive solid-phase microextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001586"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002887</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoaffinity microextraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002806"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002888</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microextraction using an antibody where the specificity is related to the specificity of the antibody to the compound of interest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planned process</rdfs:label>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001840</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000011</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process which results in physical changes in a specified input material.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001131</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001267</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001461</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000258</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000094</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material transformations</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparative method</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample preparation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample preparation step</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample preparative method</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">washing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002742"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0302888</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing is a process by which a material entity acting as contaminant (e.g. excess staining reagent) is removed by application of one or more cycles of solution in flow.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rinsing</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://rsc-cmo.googlecode.com/svn/trunk/chmo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
