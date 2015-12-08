@@ -1253,6 +1253,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_399181 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_399181">
+        <rdfs:label rdf:datatype="&xsd;string">Prunus cerasus var. caproniana</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Prunus cerasus var. caproniana L.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_varietas"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_40674">
