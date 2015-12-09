@@ -14,13 +14,13 @@
 
 <rdf:RDF xmlns="http://ontofox.hegroup.org/PO.owl#"
      xml:base="http://ontofox.hegroup.org/PO.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:po="&obo;po#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:po="&obo;po#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/PO_imports.owl"/>
     
 
@@ -560,6 +560,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009047 -->
+
+    <owl:Class rdf:about="&obo;PO_0009047">
+        <rdfs:label rdf:datatype="&xsd;string">stem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025029"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A shoot axis (PO:0025029) that is the primary axis of a plant.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OBO_SF_PO:2903994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OBO_SF_PO:2982923</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">Often bears leaves and buds. It is usually above ground, more or less negatively geotropic, and exogenous in origin.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PO:0009047</oboInOwl:id>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">bole</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ca&amp;#241a (Spanish)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">cane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">caudex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">caudices</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">culm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">eje primario (Spanish)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">primary axis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">primary stem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">primocane</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">scape</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">stalk</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tallo (Spanish)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tronco (Spanish)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">trunk</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">茎 (Japanese)</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <oboInOwl:inSubset rdf:resource="&obo;po#TraitNet"/>
+        <oboInOwl:inSubset rdf:resource="&obo;po#reference"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025004 -->
 
     <owl:Class rdf:about="&obo;PO_0025004">
@@ -574,6 +608,27 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">plant_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="&xsd;string">rwalls</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">植物軸（軸柱） (Japanese)</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+        <oboInOwl:inSubset rdf:resource="&obo;po#TraitNet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025029 -->
+
+    <owl:Class rdf:about="&obo;PO_0025029">
+        <rdfs:label rdf:datatype="&xsd;string">shoot axis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PO_0025004"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-07-01T03:46:35Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A plant axis (PO:0025004) that is part of a shoot system (PO:0009006).</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Often bears leaves and branches. In vascular plants, has at least one node and one internode.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="&xsd;string">PO:0025029</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">caullome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">eje del epiblasto (epiblastema) (Spanish)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">plant_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">rwalls</oboInOwl:created_by>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">shoot</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">シュート軸 (Japanese)</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;po#TraitNet"/>
     </owl:Class>
@@ -657,5 +712,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 

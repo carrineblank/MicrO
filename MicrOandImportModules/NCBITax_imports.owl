@@ -250,6 +250,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_117781 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_117781">
+        <rdfs:label rdf:datatype="&xsd;string">Apium graveolens Dulce Group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Apium graveolens var. dulce</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">celery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">stalk celery</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1182 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_1182">
@@ -594,6 +609,21 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_genus"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_161934 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_161934">
+        <rdfs:label rdf:datatype="&xsd;string">Beta vulgaris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Beta altissima</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">beet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </owl:Class>
     
@@ -1222,6 +1252,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3562 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_3562">
+        <rdfs:label rdf:datatype="&xsd;string">Spinacia oleracea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Spinacea oleracea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Spinacia oleracea L</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Spinacia oleracea0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">spinach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">spinach oleracea</oboInOwl:hasRelatedSynonym>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_368408 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_368408">
@@ -1262,6 +1310,40 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Prunus cerasus var. caproniana L.</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_varietas"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4039 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_4039">
+        <rdfs:label rdf:datatype="&xsd;string">Daucus carota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Queen Anne&apos;s lace</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carrot</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carrots</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4043 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_4043">
+        <rdfs:label rdf:datatype="&xsd;string">Petroselinum crispum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">NCBITaxon:732958</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Petroselinum crispum var. vulgare</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Petroselinum hortense</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Petroselinum sativum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">parsley</oboInOwl:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </owl:Class>
     
@@ -1337,6 +1419,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4236 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_4236">
+        <rdfs:label rdf:datatype="&xsd;string">Lactuca sativa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Lativa satuca</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cultivated lettuce</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">garden lettuce</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4498 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_4498">
@@ -1385,6 +1483,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_466611 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_466611">
+        <rdfs:label rdf:datatype="&xsd;string">Lactuca sativa var. crispa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_4236"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Lactuca sativa Curled Lettuce Group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">curled lettuce</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">leaf lettuce</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_varietas"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_4751">
@@ -1421,6 +1535,25 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lager beer yeast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">yeast</oboInOwl:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_65948 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_65948">
+        <rdfs:label rdf:datatype="&xsd;string">Nasturtium officinale</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">NCBITaxon:50497</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Nasturtium nasturtium-aquaticum (L.) H.Karst., nom. inval.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Roripa nasturtium-aquaticum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Rorippa nasturtium-aquaticum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Rorippa nasturtiumaquaticum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">watercress</oboInOwl:hasExactSynonym>
         <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </owl:Class>
