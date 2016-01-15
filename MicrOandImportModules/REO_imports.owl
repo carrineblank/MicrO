@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/REO_imports.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/REO_imports.owl"/>
     
 
 
