@@ -1130,6 +1130,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29760 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_29760">
+        <rdfs:label rdf:datatype="&xsd;string">Vitis vinifera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_3193"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Vitis vinifera subsp. vinifera</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">wine grape</oboInOwl:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3041 -->
 
     <owl:Class rdf:about="&obo;NCBITaxon_3041">
@@ -1572,6 +1587,33 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">purple sulfur bacteria</oboInOwl:hasExactSynonym>
         <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_family"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_755350 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_755350">
+        <rdfs:label rdf:datatype="&xsd;string">Vitis vinifera subsp. caucasica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_29760"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_subspecies"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_755351 -->
+
+    <owl:Class rdf:about="&obo;NCBITaxon_755351">
+        <rdfs:label rdf:datatype="&xsd;string">Vitis vinifera subsp. silvestris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_29760"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Vitis vinifera subsp. sylvestris</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="&obo;NCBITaxon_subspecies"/>
         <obo:IAO_0000412 rdf:resource="&obo;ncbitaxon.owl"/>
     </owl:Class>
     
