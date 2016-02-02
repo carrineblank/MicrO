@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/NCBITax_imports.owl#"
-     xml:base="http://ontofox.hegroup.org/NCBITax_imports.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/NCBI_imports.owl#"
+     xml:base="http://ontofox.hegroup.org/NCBI_imports.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/NCBITax_imports.owl"/>
+    <owl:Ontology rdf:about="githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/NCBITax_imports.owl"/>
     
 
 
@@ -75,7 +75,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1004279">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium muleiense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1004270</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1004275</oboInOwl:hasAlternativeId>
@@ -107,7 +107,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_102110">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta proteobacterium S2551</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -120,7 +120,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1028800">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neorhizobium galegae bv. orientalis str. HAMBI 540</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neorhizobium galegae bv. orientalis strain HAMBI 540</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobium galegae bv. orientalis str. HAMBI 540</oboInOwl:hasRelatedSynonym>
@@ -166,7 +166,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_107709">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opitutus terrae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_74201"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:107708</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:107710</oboInOwl:hasAlternativeId>
@@ -185,7 +185,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1078050">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seleniivibrio woodruffii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200930"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -227,7 +227,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_110322">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium terangae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer terangae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:270639</oboInOwl:hasAlternativeId>
@@ -245,7 +245,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1108">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroflexus aurantiacus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroflexus aurantiacus Pierson and Castenholz 1974</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:4374148</oboInOwl:hasDbXref>
@@ -299,7 +299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1120923">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidocella aminolytica 101 = DSM 11237</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidocella aminolytica 101</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidocella aminolytica DSM 11237</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidocella aminolytica DSM 11237 = 101</oboInOwl:hasExactSynonym>
@@ -389,7 +389,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121392">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatibacillum aliphaticivorans DSM 15576</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -401,7 +401,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121393">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatibacillum alkenivorans DSM 16219</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -413,7 +413,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121399">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatiglans anilini DSM 4660</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacterium anilini DSM 4660</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -426,7 +426,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121401">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobotulus sapovorans DSM 2055</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -438,7 +438,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121405">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfococcus multivorans DSM 2059</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -450,7 +450,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121409">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfofustis glycolicus DSM 9705</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -462,7 +462,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121412">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfomicrobium thermophilum DSM 16697</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -474,7 +474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121415">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfonauticus autotrophicus DSM 4206</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfonauticus sp. DSM 4206</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -487,7 +487,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121434">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio acrylicus DSM 10141</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -499,7 +499,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121436">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio alaskensis DSM 16109</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -511,7 +511,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121438">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio alcoholivorans DSM 5433</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -523,7 +523,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121453">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio inopinatus DSM 10711</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -535,7 +535,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121457">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio marinisediminis DSM 17456</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio marinisediminis C/L2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio marinisediminis JCM 14577</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio sp. C/L2</oboInOwl:hasRelatedSynonym>
@@ -551,7 +551,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121465">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio tunisiensis DSM 19275</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -563,7 +563,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121466">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio vietnamensis DSM 10520</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -575,7 +575,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1121467">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio zosterae DSM 11974</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -803,11 +803,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1123357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1123357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tessaracoccus bendigoensis DSM 12906</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1760"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1123371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1123371">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator atlanticus DSM 21156</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200940"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator atlanticus AT1325</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator sp. AT1325</oboInOwl:hasRelatedSynonym>
@@ -821,7 +833,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1123390">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus oshimai DSM 12092</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -918,7 +930,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1134406">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ornatilinea apprima</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22328612</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -946,7 +958,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_114248">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tepidimonas</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10758883</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16410043</oboInOwl:hasDbXref>
@@ -991,7 +1003,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_115781">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfotignum balticum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfoarculus sp. Sax</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfotignum balticum Kuever et al. 2001</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -1095,7 +1107,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1165689">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium qingshengii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1165681</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1165682</oboInOwl:hasAlternativeId>
@@ -1186,7 +1198,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_118012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta proteobacterium S2550</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfostipes sapovorans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1236,6 +1248,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_118964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_118964">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deinococcales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9103641</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radio-resistant micrococci</oboInOwl:hasExactSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1190">
@@ -1249,11 +1276,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1194083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1194083">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrasphaera japonica T1-X7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1760"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrasphaera japonica str. T1-X7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrasphaera japonica strain T1-X7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_119485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119485">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter pfennigii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter pfennigii Wallrabenstein et al. 1996</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1267,7 +1308,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1195245">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfocapsa thiozymogenes DSM 7269</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfocapsa thiozymogenes Bra2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1351,7 +1392,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1209954">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium hawassense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1209947</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1209952</oboInOwl:hasAlternativeId>
@@ -1559,7 +1600,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_125602">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfococcus biacutus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1742202</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2244787</oboInOwl:hasDbXref>
@@ -1575,7 +1616,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1261393">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatiglans parachlorophenolica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24944334</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1589,7 +1630,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1265505">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfospira joergensenii DSM 10085</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -1615,7 +1656,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_126843">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium chacoense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11411668</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1673,6 +1714,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deinococcus-Thermus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Deinococcus-Thermus&#39;</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11542160</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus/Deinococcus group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1301">
@@ -1710,7 +1767,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1304872">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio cf. magneticus IFRC170</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -1722,7 +1779,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1304885">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulforegula conservatrix Mb1Pa</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -1767,7 +1824,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1312852">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermoanaerobaculum aquaticum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_57723"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -1835,7 +1892,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1330330">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kosmotoga pacifica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200918"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24264736</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1862,7 +1919,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_134634">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opitutus sp. VeGlc2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_74201"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultramicrobacterium str. VeGlc2</oboInOwl:hasRelatedSynonym>
@@ -1985,7 +2042,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_139438">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geovibrio thiophilus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200930"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geovibrio agilis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12148649</oboInOwl:hasDbXref>
@@ -2160,7 +2217,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1444312">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium mediterraneum UPM-Ca36</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -2277,7 +2334,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149712">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovirga adipica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovirga adipica Tanaka et al. 2000</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10758870</oboInOwl:hasDbXref>
@@ -2322,7 +2379,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1506996">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfoprunum benzoelyticum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfoprumum benzoelyticum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25278560</oboInOwl:hasDbXref>
@@ -2337,7 +2394,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_152260">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroflexus aggregans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorocrinis aggregans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroflexus aggregans Hanada et al. 1995</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -2427,6 +2484,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1553900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1553900">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligoflexia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25013226</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1560">
@@ -2482,7 +2553,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1592317">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfoplanes formicivorans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Desulfoplanes formicivorans&#39;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfoplanes formicica</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -2554,7 +2625,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_167643">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilyobacter insuetus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11931152</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -2568,7 +2639,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_167644">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilyobacter tartaricus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -2643,7 +2714,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_172827">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus taiwanensis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12361269</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -2806,7 +2877,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_179878">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphingomonas elodea</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7496544</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas elodea</oboInOwl:hasRelatedSynonym>
@@ -2893,7 +2964,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_187097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta proteobacterium EbS7</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -2964,7 +3035,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194841">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiobacillus sp. DSM 612</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Thiobacillus] sp. DSM 612</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -2978,7 +3049,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194963">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium americanum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer americanum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer americanus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -2999,7 +3070,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198703">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persephonella hydrogeniphila</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200783"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12807214</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persephonella hydrogenophila</oboInOwl:hasRelatedSynonym>
@@ -3083,6 +3154,89 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200783">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquificae &lt;phylum&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquificae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23812969</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200795">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroflexi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GNS bacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:200941</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15545432</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green non-sulfur bacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green nonsulfur bacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200918">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermotogae &lt;phylum&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24166034</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermotogae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200930">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deferribacteres &lt;phylum&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deferribacteres</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406787</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20706870</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_200940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200940">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfobacteria &lt;phylum&gt;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfobacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_201174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_201174">
@@ -3118,6 +3272,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_203682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203682">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planctomycetes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15143026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15280311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25780503</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_203691 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203691">
@@ -3133,11 +3303,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_204428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204428">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlamydiae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24185849</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_206403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206403">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sulfurovum lithotrophicum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29547"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15388698</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3151,7 +3335,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206665">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfonauticus submarinus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13130052</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3165,7 +3349,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_207559">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio alaskensis G20</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio alaskensis str. G20</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio alaskensis strain G20</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio desulfuricans G20</oboInOwl:hasRelatedSynonym>
@@ -3183,7 +3367,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_208556">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine alpha proteobacterium V4.MO.26</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -3196,7 +3380,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_21">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenylobacterium immobile</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -3360,7 +3544,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_218206">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio capillatus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio capillatus Miranda-Tello et al. 2013</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3509,7 +3693,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_222">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achromobacter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9688077</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3695,7 +3879,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_227605">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylocella tundrae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylocella tundrae Dedysh et al. 2004</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14742473</oboInOwl:hasDbXref>
@@ -3754,7 +3938,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2295">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacterium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacterium Bak and Widdel 1988</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3786,7 +3970,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_229919">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerolinea thermolimosa</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16738111</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3800,7 +3984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_229920">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptolinea tardivitalis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16738111</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3814,7 +3998,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_229921">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levilinea saccharolytica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16738111</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3904,7 +4088,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2333">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionigenium modestum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionicigenium modestum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionigenium modestum Schink and Pfennig 1983</oboInOwl:hasRelatedSynonym>
@@ -3919,7 +4103,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2335">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermotoga</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200918"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24166034</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3975,7 +4159,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_240015">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidobacterium capsulatum ATCC 51196</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_57723"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidobacterium capsulatum str. ATCC 51196</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidobacterium capsulatum strain ATCC 51196</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -4017,7 +4201,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_246264">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogenivirga caldilitoris</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200783"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogenivirga caldolitus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15545438</oboInOwl:hasDbXref>
@@ -4084,6 +4268,22 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15143021</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_256845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_256845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentisphaerae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15142250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15280261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24185849</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
@@ -4184,7 +4384,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_271">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus aquaticus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:5781580</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus aguaticus</oboInOwl:hasRelatedSynonym>
@@ -4269,7 +4469,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28104">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium huakuii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobium huakuii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4307,11 +4507,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alphaproteobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alphabacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11541974</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11837318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16166687</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16403855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19060069</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteobacteria alpha subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple bacteria, alpha subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha subgroup</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betaproteobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Betaproteobacteria&#39;</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteobacteria beta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple bacteria, beta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b-proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta subgroup</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deltaproteobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68525"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32015</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11837318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16403855</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteobacteria delta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple bacteria, delta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta subgroup</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_283702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_283702">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter sulfatireducens</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15879275</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter sulfatereducens</oboInOwl:hasExactSynonym>
@@ -4383,7 +4650,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_290">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas carboxydohydrogena</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10939664</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seliberia carboxydohydrogena</oboInOwl:hasRelatedSynonym>
@@ -4413,7 +4680,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_293884">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geobacter hephaestius</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Geobacter hephaestius&#39;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4455,7 +4722,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29527">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter wolinii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophobacter wolinii Boone and Bryant 1984</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4469,10 +4736,33 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29542">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter acetylenicus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29547">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epsilonproteobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68525"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Epsilonproteobacteria&#39;</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11837318</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteobacteria epsilon subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple bacteria, epsilon subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e-proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epsilon proteobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epsilon subdivision</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epsilon subgroup</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not Epsilobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not Epsilobacteria Cavalier-Smith 2002</oboInOwl:hasRelatedSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
@@ -4482,7 +4772,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_296842">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio carbinolicus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio carbinolicus Nanninga and Gottschal 1995</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4526,7 +4816,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_299563">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio sp. M2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -4648,7 +4938,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31969">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mollicutes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycoplasmas and walled relatives</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11321122</oboInOwl:hasDbXref>
@@ -4662,6 +4952,21 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycoplasmas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24969840</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fusobacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
@@ -4812,7 +5117,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_338963">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter carbinolicus DSM 2380</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter carbinolicus Gra Bd 1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter carbinolicus str. DSM 2380</oboInOwl:hasExactSynonym>
@@ -4841,7 +5146,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_339866">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiomonas bhubaneswarensis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19605731</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4855,7 +5160,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_340094">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaerobic syntrophic bacterium NE23-3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -4897,7 +5202,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_344616">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermosipho africanus Ob7</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200918"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermosipho africanus strain Ob7</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5046,7 +5351,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35816">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter acidigallici</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -5072,7 +5377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_360411">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellilinea caldifistulae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17911301</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5118,7 +5423,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36856">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium saheli</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer saheli</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76755</oboInOwl:hasAlternativeId>
@@ -5134,7 +5439,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_374">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradyrhizobium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agromonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:44254</oboInOwl:hasAlternativeId>
@@ -5194,7 +5499,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37636">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus scotoductus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:65768</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11594628</oboInOwl:hasDbXref>
@@ -5210,7 +5515,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_378211">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methyloversatilis universalis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:260927</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17082383</oboInOwl:hasDbXref>
@@ -5225,7 +5530,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_379">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:78526</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10758890</oboInOwl:hasDbXref>
@@ -5263,7 +5568,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_380">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium fredii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer fredii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1371066</oboInOwl:hasDbXref>
@@ -5294,7 +5599,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_381">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium loti</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25566955</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobium loti</oboInOwl:hasRelatedSynonym>
@@ -5309,7 +5614,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_382">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium meliloti</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer meliloti</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1078746</oboInOwl:hasAlternativeId>
@@ -5332,7 +5637,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_383372">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roseiflexus castenholzii DSM 13941</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roseiflexus castenholzii HLO8</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roseiflexus castenholzii str. DSM 13941</oboInOwl:hasExactSynonym>
@@ -5415,7 +5720,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_391905">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylocystis heyeri</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylocystis heyerii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17329771</oboInOwl:hasDbXref>
@@ -5476,7 +5781,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_396322">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatiferula olefinivorans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfatibacillus olefinivorans</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17978243</oboInOwl:hasDbXref>
@@ -5491,7 +5796,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39645">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium ciceri</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7520739</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobium ciceri</oboInOwl:hasRelatedSynonym>
@@ -5536,7 +5841,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39841">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulforhabdus norvegica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulforhabdus acetothermus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10939678</oboInOwl:hasDbXref>
@@ -5554,7 +5859,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39844">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium tianshanense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:71434</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7857795</oboInOwl:hasDbXref>
@@ -5634,7 +5939,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_404">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylobacillus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylobacillus Yordy and Weaver 1977 (Approved Lists 1980) emend. Urakami and Komagata 1986</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5816,7 +6121,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_417745">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shinella kummerowiae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:479957</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18523187</oboInOwl:hasDbXref>
@@ -5875,7 +6180,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_425306">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium tamadayense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1107950</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1107951</oboInOwl:hasAlternativeId>
@@ -5893,7 +6198,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_425942">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetospirillum bellicus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20495050</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5907,7 +6212,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_426114">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiomonas arsenitoxydans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21409355</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5935,7 +6240,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_431677">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobacter dauci</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19622640</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobacter daucus</oboInOwl:hasRelatedSynonym>
@@ -5950,7 +6255,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_431944">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetospirillum gryphiswaldense MSR-1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetospirillum gryphiswaldense str. MSR-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetospirillum gryphiswaldense strain MSR-1</oboInOwl:hasExactSynonym>
@@ -5964,7 +6269,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_43774">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophus buswellii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syntrophus buswellii Mountfort et al. 1984</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -5995,7 +6300,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_442866">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio butyratiphilus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Desulfovibrio sp. BST-A&#39;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Desulfovibrio sp. BSY-A&#39;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -6015,7 +6320,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44672">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelobacter venetianus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6881964</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -6029,7 +6334,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_449307">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfococcus sp. DSM 8541</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -6100,7 +6405,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_453215">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfocella sp. DSM 2056</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio sp. DSM 2056</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Desulfovibrio] sp. DSM 2056</oboInOwl:hasRelatedSynonym>
@@ -6184,7 +6489,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46610">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geobacter sp.</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geobacter species</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -6228,7 +6533,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_475069">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium camelthorni</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:558870</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:559329</oboInOwl:hasAlternativeId>
@@ -6397,7 +6702,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_499528">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium silamurunense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:499530</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:501255</oboInOwl:hasAlternativeId>
@@ -6444,10 +6749,28 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_505389">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium sangaii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_508458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_508458">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synergistetes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aminanaerobia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:447824</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17631395</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18048718</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19406787</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
@@ -6574,7 +6897,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_526227">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus silvanus DSM 9946</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus silvanus ATCC 700542</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus silvanus VI-R2</oboInOwl:hasRelatedSynonym>
@@ -6620,7 +6943,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53463">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paracoccus solventivorans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8863446</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9731294</oboInOwl:hasDbXref>
@@ -6681,7 +7004,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_538379">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphingobium quisquiliarum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19651722</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -6691,11 +7014,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54255">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermofilum librum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2266"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9226896</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_544448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_544448">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tenericutes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_545537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_545537">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiomonas islandica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20173005</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiomonas islandicus</oboInOwl:hasRelatedSynonym>
@@ -6741,7 +7091,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_559315">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium robiniae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium sp. CCNWYC115</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesorhizobium sp. CCNWYC120</oboInOwl:hasRelatedSynonym>
@@ -6764,7 +7114,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56119">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castellaniella denitrificans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16585701</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -6793,7 +7143,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_57040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malonomonas rubra</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malonomonas rubra Dehning and Schink 1990</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9841124</oboInOwl:hasDbXref>
@@ -6866,15 +7216,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_57723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_57723">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidobacterium group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_580340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_580340">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermovirga lienii DSM 17291</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_508458"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermovirga lienii str. DSM 17291</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermovirga lienii strain DSM 17291</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_580370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_580370">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zetaproteobacteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17668050</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
@@ -6900,7 +7278,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62140">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidiphilium multivorum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidiphilium multivorum Wakao et al. 1995</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidiphilum multivorum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -6942,7 +7320,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_631220">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio sp. G11</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -7002,7 +7380,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_643562">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio aespoeensis Aspo-2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio aespoeensis DSM 10631</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio aespoeensis str. Aspo-2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio aespoeensis strain Aspo-2</oboInOwl:hasExactSynonym>
@@ -7017,7 +7395,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_644282">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfarculus baarsii DSM 2075</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfarculus baarsii 2st 14</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfarculus baarsii str. DSM 2075</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfarculus baarsii strain DSM 2075</oboInOwl:hasExactSynonym>
@@ -7068,7 +7446,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_651182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula toluolica Tol2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula toluolica DSM 7467</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula toluolica str. Tol2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula toluolica strain Tol2</oboInOwl:hasExactSynonym>
@@ -7084,7 +7462,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_65552">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus cerbereus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9336933</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -7131,7 +7509,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_667014">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator indicus DSM 15286</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200940"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator indicus CIR29812</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermodesulfatator indicus str. DSM 15286</oboInOwl:hasExactSynonym>
@@ -7187,6 +7565,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_67812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_67812">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omnitrophica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:1703754</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23851394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24185849</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25922666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9440526</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candidate division OP3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">candidate division Obsidian Pool 3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_68525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_68525">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta/epsilon subdivisions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11837318</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not Thiobacteria</oboInOwl:hasRelatedSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subphylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_68933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_68933">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12054225</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermus group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_690585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_690585">
@@ -7213,7 +7641,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69279">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquamicrobium defluvii</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquamicrobium defluvium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9531630</oboInOwl:hasDbXref>
@@ -7380,6 +7808,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_74201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_74201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verrucomicrobia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11155969</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20647678</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24185849</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9296261</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">verrucomicrobia</oboInOwl:hasRelatedSynonym>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_755350 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_755350">
@@ -7440,7 +7886,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76745">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium arboris</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer arboris</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76746</oboInOwl:hasAlternativeId>
@@ -7457,7 +7903,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76747">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinorhizobium kostiense</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensifer kostiensis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:76748</oboInOwl:hasAlternativeId>
@@ -7519,7 +7965,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_77631">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfate-reducing bacterium mXyS1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -7586,7 +8032,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83564">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfosarcina ovata</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16403855</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -7600,7 +8046,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83766">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Propionivibrio</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:65400</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10319502</oboInOwl:hasDbXref>
@@ -7661,7 +8107,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_859243">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea tarbellica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea aquitainae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20584812</oboInOwl:hasDbXref>
@@ -7706,7 +8152,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_879212">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacter postgatei 2ac9</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacter postgatei DSM 2034</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacter postgatei str. 2ac9</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacter postgatei strain 2ac9</oboInOwl:hasExactSynonym>
@@ -7766,7 +8212,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_881">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio vulgaris</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio vulgaris vulgaris</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:32017</oboInOwl:hasAlternativeId>
@@ -7797,7 +8243,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_88274">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta proteobacterium NaphS2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -7810,7 +8256,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_885">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfovibrio sp.</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -7823,7 +8269,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_888061">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfomicrobium orale DSM 12838</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfomicrobium orale str. DSM 12838</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfomicrobium orale strain DSM 12838</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -7853,7 +8299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_891">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfuromonas acetoxidans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloropseudomonas ethylica</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfuromonas acetoxidans Pfennig and Biebl 1977</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
@@ -7869,7 +8315,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_891968">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobaculum mobile DSM 13181</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_508458"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobaculum mobile ATCC BAA-54</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobaculum mobile NGA</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobaculum mobile str. DSM 13181</oboInOwl:hasExactSynonym>
@@ -7931,7 +8377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90732">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula phenolica</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacterium phenolicum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacterium phenolicum Bak and Widdel 1988</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desulfobacula phenolica (Bak and Widdel 1988) Kuever et al. 2001</oboInOwl:hasRelatedSynonym>
@@ -7999,7 +8445,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_926550">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea aerophila DSM 14535 = NBRC 104270</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea aerophila DSM 14535</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea aerophila NBRC 104270</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caldilinea aerophila NBRC 104270 = DSM 14535</oboInOwl:hasExactSynonym>
@@ -8015,7 +8461,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_926560">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meiothermus chliarophilus DSM 9957</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68933"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -8027,7 +8473,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_926569">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerolinea thermophila UNI-1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -8089,7 +8535,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_933080">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxalobacter vibrioformis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -8309,6 +8755,21 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Youngiibacter fragile 232.1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_99480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_99480">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrasphaera australiensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1760"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10758865</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrasphaera australiensis Maszenan et al. 2000</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
     </owl:Class>
     
