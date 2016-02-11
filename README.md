@@ -1,9 +1,9 @@
 # MicrO
-An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.0
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.1 (released Feb 10, 2016).
 
 
 
-Created by Carrine E. Blank, University of Montana, fall 2013 through summer 2015. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore 
+Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore 
 (University of Southern Maine), and Ramona Walls (University of Arizona).
 
 Includes terms and term synonyms extracted from > 1500 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes, and Mollicutes.
@@ -14,7 +14,7 @@ A description and link to MicroPIE can be found at http://avatol.org/ngp/nlp/ove
 
 
 
-Contains ~ 1,560 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~10,240 terms from 13 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >20,500 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
+Contains ~ 2,470 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~12,100 terms from 19 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >24,300 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
 
 
 
@@ -36,8 +36,3 @@ This work was supported by a grant from the National Science Foundation Assembli
 
 3.  Once executed you can then run the reasoner.
 
-
-
-***NOTICE REGARDING IRI ADDRESSES***
-
-IRI addresses for imported ontology terms and for MicrO-specific terms are currently temporary.  They will be replaced with purl addresses soon.
