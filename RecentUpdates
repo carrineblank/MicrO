@@ -1,8 +1,17 @@
+***Updated December 2015 and January 2016:
+Large number of new classes of culture medium recipes (from the DSMZ) were added.
+
+Several issues on the Issue Tracker were solved/addressed (see Issue Tracker).
+
+***Updated Dec 1, 2015:
+Ontology manuscript submitted to Journal of Biomedical Semantics.
+
 ***Updated Nov 30, 2015:
 Renamed import module files to BSPO_imports.owl
 
 Replaced import files with the URLs of the imports (correcting Tracker Item #5).
 
+Temporary IRIs were replaced with proper purl addresses.
 
 ***Updated Nov 29, 2015:
 Removed dates in MicrO.owl file and in import modules.
