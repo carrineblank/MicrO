@@ -1,5 +1,5 @@
 # MicrO
-An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.1 (released Feb 10, 2016).
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.2 (released Mar 10, 2016).
 
 
 
