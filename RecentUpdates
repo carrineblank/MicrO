@@ -1,3 +1,8 @@
+*** Updated Mar 23, 2016:
+New version (version 1.3) of MicrO.owl was released.
+
+Fixed problem of logical definitions of some prokaryotic qualities incorrectly using quality terms, and object properties under 'has quality' incorrectly using quality terms as domain values.  Transformed prokaryotic colony qualities into prokaryotic colony (material entities) and modified term definitions.  Created parent terms for prokaryotic colony qualities and linked the material entity terms with quality terms using logical axiom 'quality of'.  Thanks Ramona!
+
 *** Updated Mar 10, 2016:
 New version (version 1.2) of MicrO.owl was released.
 
