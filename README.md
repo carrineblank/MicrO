@@ -17,12 +17,11 @@ A description and link to MicroPIE can be found at http://avatol.org/ngp/nlp/ove
 Contains ~ 2,470 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~12,100 terms from 19 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >24,300 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
 
 
+Please cite:
+Blank CE, Cui H, Moore LR, Walls RL.  2016.  MicrO: An Ontology of Phenotypic and Metabolic Characters, Assays, and Culture Media Found in Prokaryotic Taxonomic Descriptions, Journal of Biomedical Semantics 7:18. DOI:10.1186/s13326-016-0060-6.
 
-Thanks to Chris Mungall (LBNL), Elvis Hsin-Hui Wu (University of Arizona), Gail Gasparich (Towson University), and Gordon Burleigh (University of Florida) for comments and/or assistance with ontology construction and compilation of taxonomic descriptions.
 
-Many thanks to Oliver He (University of Michigan) for technical assistance with OntoBee and OntoFox, and Gareth Owen (ChEBI project leader, head curator) and other curators at ChEBI for assistance in the incorporation of microbial-specific chemical terms and synonyms into ChEBI.
-
-Thanks also to the instructors (Melissa Haendel, Matt Yoder, Jim Baihoff) and students of the 2013 NESCent Ontologies for Evolutionary Biology workshop, and to Karen Cranston (NESCent director) and the support staff at NESCent.
+Thanks to Chris Mungall (LBNL), Elvis Hsin-Hui Wu (University of Arizona), Gail Gasparich (Towson University), and Gordon Burleigh (University of Florida) for comments and/or assistance with ontology construction and compilation of taxonomic descriptions.Many thanks to Oliver He (University of Michigan) for technical assistance with OntoBee and OntoFox, and Gareth Owen (ChEBI project leader, head curator) and other curators at ChEBI for assistance in the incorporation of microbial-specific chemical terms and synonyms into ChEBI.Thanks also to the instructors (Melissa Haendel, Matt Yoder, Jim Baihoff) and students of the 2013 NESCent Ontologies for Evolutionary Biology workshop, and to Karen Cranston (NESCent director) and the support staff at NESCent.
 
 This work was supported by a grant from the National Science Foundation Assembling the Tree of Life Program (DBI-1208534), and by a travel grant to attend the 2013 NESCent Ontologies for Evolutionary Biology workshop.
 
