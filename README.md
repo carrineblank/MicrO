@@ -3,8 +3,7 @@ An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.3 (rel
 
 
 
-Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore 
-(University of Southern Maine), and Ramona Walls (University of Arizona).
+Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore (University of Southern Maine), and Ramona Walls (University of Arizona).
 
 Includes terms and term synonyms extracted from > 1500 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes, and Mollicutes.
 
@@ -19,6 +18,7 @@ Contains ~ 2,470 terms and term definitions, along with thousands of term synony
 
 Please cite:
 Blank CE, Cui H, Moore LR, Walls RL.  2016.  MicrO: An Ontology of Phenotypic and Metabolic Characters, Assays, and Culture Media Found in Prokaryotic Taxonomic Descriptions, Journal of Biomedical Semantics 7:18. DOI:10.1186/s13326-016-0060-6.
+https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0060-6
 
 
 Thanks to Chris Mungall (LBNL), Elvis Hsin-Hui Wu (University of Arizona), Gail Gasparich (Towson University), and Gordon Burleigh (University of Florida) for comments and/or assistance with ontology construction and compilation of taxonomic descriptions.Many thanks to Oliver He (University of Michigan) for technical assistance with OntoBee and OntoFox, and Gareth Owen (ChEBI project leader, head curator) and other curators at ChEBI for assistance in the incorporation of microbial-specific chemical terms and synonyms into ChEBI.Thanks also to the instructors (Melissa Haendel, Matt Yoder, Jim Baihoff) and students of the 2013 NESCent Ontologies for Evolutionary Biology workshop, and to Karen Cranston (NESCent director) and the support staff at NESCent.
