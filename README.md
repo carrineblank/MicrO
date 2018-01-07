@@ -1,6 +1,10 @@
 # MicrO
-An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.3 (released Mar 23, 2016).
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.4 (released Jan 6, 2018).
 
+
+v. 1.4 updates:
+ChEBI temporary classes were removed and replaced with new ChEBI terms.
+Organic fermentation assay classes were ontologized to match ChEBI terminology.
 
 
 Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore (University of Southern Maine), and Ramona Walls (University of Arizona).
@@ -34,4 +38,6 @@ This work was supported by a grant from the National Science Foundation Assembli
 2.  Execute MicrO.owl using Protege v. 4.3 or Protege v. 5.0.0 (runs in beta 17).
 
 3.  Once executed you can then run the reasoner.
+
+4.  You must have a live internet connection when you open MicrO.owl in order to properly download and access all the ontology import modules.
 
