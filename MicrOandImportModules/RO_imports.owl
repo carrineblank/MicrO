@@ -255,9 +255,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002416 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RO_0002416">
+        <rdfs:label xml:lang="en">logical macro assertion</rdfs:label>
+        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/oborel/obo-relations/wiki/ShortcutRelations</foaf:page>
+        <obo:IAO_0000115>An assertion that involves at least one OWL object that is intended to be expanded into one or more logical axioms. The logical expansion can yield axioms expressed using any formal logical system, including, but not limited to OWL2-DL.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002421 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RO_0002421">
+        <rdfs:label xml:lang="en">logical macro assertion on a property</rdfs:label>
+        <obo:IAO_0000115>A logical macro assertion whose domain is an IRI for a property</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002416"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002422 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002422"/>
+    <owl:AnnotationProperty rdf:about="&obo;RO_0002422">
+        <rdfs:label xml:lang="en">logical macro assertion on an object property</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002421"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -385,6 +408,12 @@
     <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
         <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
@@ -585,12 +614,12 @@
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;BFO_0000055"/>
-            <rdf:Description rdf:about="&obo;RO_0000052"/>
+            <rdf:Description rdf:about="&obo;RO_0000057"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0000057"/>
+            <rdf:Description rdf:about="&obo;BFO_0000055"/>
+            <rdf:Description rdf:about="&obo;RO_0000052"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -619,6 +648,24 @@
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001015 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0001015">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">location of</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the location and the target, in which the target is entirely within the location</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">is location of</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">location_of</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">my head is the location of my brain</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this cage is the location of this rat</obo:IAO_0000112>
+        <owl:inverseOf rdf:resource="&obo;RO_0001025"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
@@ -2317,6 +2364,41 @@
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001901 -->
+
+    <owl:NamedIndividual rdf:about="&obo;RO_0001901">
+        <rdfs:label xml:lang="en">axiom holds for all times</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
