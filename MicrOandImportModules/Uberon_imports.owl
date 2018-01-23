@@ -113,21 +113,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBPROP_0000002 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;UBPROP_0000002">
-        <rdfs:label rdf:datatype="&xsd;string">axiom_lost_from_external_ontology</rdfs:label>
-        <oboInOwl:is_metadata_tag rdf:datatype="&xsd;integer">1</oboInOwl:is_metadata_tag>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A textual description of an axiom loss in this ontology compared to an external ontology.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="&xsd;string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UBPROP:0000002</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">axiom_lost_from_external_ontology</oboInOwl:shorthand>
-        <oboInOwl:id rdf:datatype="&xsd;string">axiom_lost_from_external_ontology</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
 
     <owl:AnnotationProperty rdf:about="&obo;UBPROP_0000003">
@@ -227,19 +212,6 @@
         <oboInOwl:shorthand rdf:datatype="&xsd;string">location_notes</oboInOwl:shorthand>
         <oboInOwl:id rdf:datatype="&xsd;string">location_notes</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/contributor -->
-
-    <owl:AnnotationProperty rdf:about="&dc;contributor">
-        <rdfs:label rdf:datatype="&xsd;string">contributor</rdfs:label>
-        <oboInOwl:is_metadata_tag rdf:datatype="&xsd;integer">1</oboInOwl:is_metadata_tag>
-        <oboInOwl:shorthand rdf:datatype="&xsd;string">dc-contributor</oboInOwl:shorthand>
-        <oboInOwl:id rdf:datatype="&xsd;string">dc-contributor</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasDbXref rdf:resource="&dc;contributor"/>
     </owl:AnnotationProperty>
     
 
@@ -765,7 +737,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ZFA:0000007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">galen:Blood</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">portion of blood</oboInOwl:hasExactSynonym>
-        <obo:UBPROP_0000002 rdf:datatype="&xsd;string">relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</obo:UBPROP_0000002>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vertebrate blood</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">whole blood</oboInOwl:hasRelatedSynonym>
@@ -777,8 +748,6 @@
         <oboInOwl:inSubset rdf:resource="&obo;uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="&obo;uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="&obo;uberon/core#vertebrate_core"/>
-        <dc:contributor rdf:resource="https://github.com/cmungall"/>
-        <dc:contributor rdf:resource="https://github.com/tmeehan"/>
     </owl:Class>
     
 
@@ -1281,7 +1250,6 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">cardium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chambered heart</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">galen:Heart</oboInOwl:hasDbXref>
-        <obo:UBPROP_0000002 rdf:datatype="&xsd;string">relationship type change: differentiates_from lateral plate mesoderm (AAO:0010574) CHANGED TO: develops_from lateral plate mesoderm (UBERON:0003081)[AAO]</obo:UBPROP_0000002>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vertebrate heart</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Heart"/>
@@ -1364,7 +1332,6 @@
         <oboInOwl:inSubset rdf:resource="&obo;uberon/core#vertebrate_core"/>
         <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_796"/>
         <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/258335003"/>
-        <dc:contributor rdf:resource="https://github.com/cmungall"/>
     </owl:Class>
     
 
@@ -2311,7 +2278,6 @@
         <obo:UBPROP_0000007 rdf:datatype="&xsd;string">hepatic</obo:UBPROP_0000007>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">iecur</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">jecur</oboInOwl:hasRelatedSynonym>
-        <obo:UBPROP_0000002 rdf:datatype="&xsd;string">relationship type change: differentiates_from endoderm (AAO:0000139) CHANGED TO: develops_from endoderm (UBERON:0000925)[AAO]</obo:UBPROP_0000002>
         <obo:UBPROP_0000009 rdf:datatype="&xsd;string">secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:UBPROP_0000009>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Liver"/>
@@ -3133,14 +3099,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000456"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001866"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000323"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0000323"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001866"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An unctuous substance composed of sebum and desquamated epithelial cells, which covers the skin of the fetus.</obo:IAO_0000115>
@@ -3459,14 +3425,14 @@
         <rdfs:subClassOf rdf:resource="&obo;UBERON_0000463"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;uberon/core#protects"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007378"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007379"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007379"/>
+                <owl:onProperty rdf:resource="&obo;uberon/core#protects"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0007378"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Albumen is the clear liquid contained within an egg and consists of water and proteins, among which are ovomucin and ovomucoid. It protects the egg yolk and provides additional nutrition for the growth of the embryo.</obo:IAO_0000115>

@@ -1,4 +1,16 @@
 <?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY uberon "http://purl.obolibrary.org/obo/uberon#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
 <rdf:RDF xmlns="http://ontofox.hegroup.org/REO_imports.owl#"
      xml:base="http://ontofox.hegroup.org/REO_imports.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -6,7 +18,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#">
+     xmlns:uberon="&obo;uberon#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/REO_imports.owl"/>
     
 
@@ -19,41 +31,26 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/REO_0000360">
-        <rdfs:label>ReO alternative term</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
-        <rdfs:label>definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:REO_0000360>Definition</obo:REO_0000360>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
-        <rdfs:label xml:lang="en">editor note</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114">
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
         <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
@@ -61,71 +58,110 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
-        <rdfs:label>definition source</rdfs:label>
-        <rdfs:label xml:lang="en">definition source</rdfs:label>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:REO_0000360>definition_source</obo:REO_0000360>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117">
+        <rdfs:label rdf:datatype="&xsd;string">definition editor</rdfs:label>
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
-        <obo:REO_0000360>definition_editor</obo:REO_0000360>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_xref"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/REO_0000140">
-        <rdfs:label xml:lang="en">ReO-preferred_definition</rdfs:label>
-        <obo:IAO_0000115>records an alternate, ReO-preferred derfinition for classes imported from external ontologies. This definition may extend that in a source ontology, but should ultimtely be consistent with its original meaning (otherwise a new class should be created).</obo:IAO_0000115>
-        <rdfs:comment>This definition is included/written to be consistent with the role of the class in the current ontology, and/or to make distincitons important in the context of the current ontology.  In some cases, may involve simple converting to appropriate aristotelian format for the current ontology.</rdfs:comment>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/REO_0000182"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
-        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
-        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/REO_0000182">
-        <rdfs:label xml:lang="en">ReO annotations</rdfs:label>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
+        <rdfs:label rdf:datatype="&xsd;string">definition source</rdfs:label>
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_xref -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_xref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000140 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;REO_0000140">
+        <rdfs:label xml:lang="en">ReO-preferred_definition</rdfs:label>
+        <rdfs:comment>This definition is included/written to be consistent with the role of the class in the current ontology, and/or to make distincitons important in the context of the current ontology.  In some cases, may involve simple converting to appropriate aristotelian format for the current ontology.</rdfs:comment>
+        <obo:IAO_0000115>records an alternate, ReO-preferred derfinition for classes imported from external ontologies. This definition may extend that in a source ontology, but should ultimtely be consistent with its original meaning (otherwise a new class should be created).</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;REO_0000182"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000182 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;REO_0000182">
+        <rdfs:label xml:lang="en">ReO annotations</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -142,7 +178,7 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000053">
         <rdfs:label xml:lang="en">is bearer of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -150,8 +186,8 @@
 
     <!-- http://purl.obolibrary.org/obo/uberon#output_of -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#output_of">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">output_of</rdfs:label>
+    <owl:ObjectProperty rdf:about="&obo;uberon#output_of">
+        <rdfs:label rdf:datatype="&xsd;string">output_of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -169,31 +205,28 @@
 
     <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
-        <obo:IAO_0000118>protein polypeptide chain</obo:IAO_0000118>
-        <obo:IAO_0000116>Note that ChEBI:protein is defined such as to consist minimally of one polypeptide chain synth at the ribosome, such that proteins can consist of more than one polyppetide chain. this is different thatn the PRO:protein class used here,  that excludes protein complexes with more than one chain.</obo:IAO_0000116>
-        <obo:IAO_0000118>protein amino acid chain</obo:IAO_0000118>
-        <obo:REO_0000140>a polypeptide chain that is synthesized through ribosome-mediated translation</obo:REO_0000140>
-        <rdfs:comment>Note that bioengineered proteins produced in cells or extracts via ribosome mediated translation, but as part of some planned process, are included here.</rdfs:comment>
-        <obo:IAO_xref>ChEBI:protein polypeptide chain (CHEBI_16541)</obo:IAO_xref>
+    <owl:Class rdf:about="&obo;PR_000000001">
+        <rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
         <obo:IAO_0000412>PRO</obo:IAO_0000412>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+        <obo:IAO_xref>ChEBI:protein polypeptide chain (CHEBI_16541)</obo:IAO_xref>
+        <obo:IAO_0000116>Note that ChEBI:protein is defined such as to consist minimally of one polypeptide chain synth at the ribosome, such that proteins can consist of more than one polyppetide chain. this is different thatn the PRO:protein class used here,  that excludes protein complexes with more than one chain.</obo:IAO_0000116>
+        <rdfs:comment>Note that bioengineered proteins produced in cells or extracts via ribosome mediated translation, but as part of some planned process, are included here.</rdfs:comment>
+        <obo:REO_0000140>a polypeptide chain that is synthesized through ribosome-mediated translation</obo:REO_0000140>
+        <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;reo.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/REO_0000197 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000197">
+    <owl:Class rdf:about="&obo;REO_0000197">
         <rdfs:label xml:lang="en">bovine serum albumin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000118>BSA</obo:IAO_0000118>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/REO_0000476"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+        <rdfs:subClassOf rdf:resource="&obo;PR_000000001"/>
+        <obo:IAO_0000114 rdf:resource="&obo;REO_0000476"/>
+        <obo:IAO_0000412 rdf:resource="&obo;reo.owl"/>
     </owl:Class>
     
 
@@ -211,7 +244,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000122">
         <rdfs:label xml:lang="en">ready for release</rdfs:label>
     </owl:NamedIndividual>
     
@@ -219,7 +252,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+    <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
         <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
     </owl:NamedIndividual>
     
@@ -227,12 +260,12 @@
 
     <!-- http://purl.obolibrary.org/obo/REO_0000476 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/REO_0000476">
+    <owl:NamedIndividual rdf:about="&obo;REO_0000476">
         <rdfs:label>example particular class</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 

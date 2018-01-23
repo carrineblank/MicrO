@@ -12,11 +12,11 @@
 
 <rdf:RDF xmlns="http://ontofox.hegroup.org/OBI.owl#"
      xml:base="http://ontofox.hegroup.org/OBI.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/OBI_imports.owl"/>
     
 
@@ -111,19 +111,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
@@ -160,13 +147,33 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;OBI_0000293"/>
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0000293">
+        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how &apos;has participant&apos; works.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Coutot</obo:IAO_0000117>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_input</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;OBI_0000299"/>
+    <owl:AnnotationProperty rdf:about="&obo;OBI_0000299">
+        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_output</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -211,7 +218,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000056">
         <rdfs:label xml:lang="en">participates in</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:ObjectProperty>
     
@@ -221,7 +227,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000057">
         <rdfs:label xml:lang="en">has participant</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
         <owl:inverseOf rdf:resource="&obo;BFO_0000056"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
@@ -267,8 +272,18 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
 
     <owl:ObjectProperty rdf:about="&obo;OBI_0000293">
+        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how &apos;has participant&apos; works.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Coutot</obo:IAO_0000117>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_input</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:ObjectProperty>
     
 
@@ -293,9 +308,17 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
     <owl:ObjectProperty rdf:about="&obo;OBI_0000299">
+        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_output</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/>
         <owl:inverseOf rdf:resource="&obo;OBI_0000312"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:ObjectProperty>
     
 
@@ -409,8 +432,6 @@
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:Class>
@@ -440,13 +461,19 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -454,12 +481,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -471,7 +492,6 @@
         <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">material transformation</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:Class>
@@ -509,7 +529,6 @@
         <obo:IAO_0000112 xml:lang="en">Up-regulation of inflammatory signalings by areca nut extract and role of cyclooxygenase-2 -1195G&gt;a polymorphism reveal risk of oral cancer. Cancer Res. 2008 Oct 15;68(20):8489-98. PMID: 18922923</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">an extract is a material entity which results from an extraction process</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">extract</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">extracted material</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:Class>
@@ -538,9 +557,7 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000968"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A test tube is a device consisting of a glass or plastic tubing, open at the top, usually with a rounded U-shaped bottom which has the function to contain material</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">collection tube</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">http://en.wikipedia.org/wiki/Test_tube</obo:IAO_0000119>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">sample tube</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="&xsd;string">test tube</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
@@ -566,7 +583,6 @@
         <obo:IAO_0000111 rdf:datatype="&xsd;string">device</obo:IAO_0000111>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">food should not classify as a device - counter example for using manufacturer and not device. macroscopic only</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">if we keep this exploratory term we could reinstate the old device class which is obsolete_device. didn&apos;t work before as we had manufacturing as part of  the definition. device was needed, but couldn&apos;t define in Philadelphia. If we decide  that in addition to function there are also capabilities for which a device is created we will include these in the definition.</obo:IAO_0000116>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">instrument</obo:IAO_0000118>
         <rdfs:comment rdf:datatype="&xsd;string">would include reagents</rdfs:comment>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
@@ -580,7 +596,6 @@
         <rdfs:label xml:lang="en">phosphate buffered saline solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302729"/>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">PBS buffer</obo:IAO_0000118>
         <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: Tina Boussard</obo:IAO_0000117>
         <obo:IAO_0000112 xml:lang="en">PMID: 16279733.Dent Mater J. 2005 Sep;24(3):414-21.PBS buffer solutions with different pH values can change porosity of DNA-chitosan complexes.</obo:IAO_0000112>
@@ -634,7 +649,6 @@
         <obo:IAO_0000115 xml:lang="en">A material entity  that is made up of at least 2 scattered molecular aggregates, one playing the role of solvent and the other one playing the role of solute.</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">PMID: 18289311.Anesth Analg. 2008 Apr;106(4):1078-86.Less impairment of hemostasis and reduced blood loss in pigs after resuscitation from hemorrhagic shock using the small-volume concept with hypertonic saline/hydroxyethyl starch as compared to administration of 4% gelatin or 6% hydroxyethyl starch solution.</obo:IAO_0000112>
         <obo:IAO_0000111 xml:lang="en">chemical solution</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">liquid chemical solution</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
     </owl:Class>
@@ -817,42 +831,9 @@
     <owl:NamedIndividual rdf:about="&obo;IAO_0000125">
         <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&obo;OBI_0000293">
-        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
-        <obo:IAO_0000116 rdf:datatype="&xsd;string">8/17/09: specified inputs of one process are not necessarily specified inputs of a larger process that it is part of. This is in contrast to how &apos;has participant&apos; works.</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Coutot</obo:IAO_0000117>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_input</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000112 xml:lang="en">see is_input_of example_of_usage</obo:IAO_0000112>
-        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&obo;OBI_0000299">
-        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Larry Hunter</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">has_specified_output</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="&obo;obi/webService.owl"/>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 

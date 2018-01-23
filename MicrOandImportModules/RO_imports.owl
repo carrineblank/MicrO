@@ -46,9 +46,7 @@
         <rdfs:label xml:lang="en">realized in</rdfs:label>
         <rdfs:comment>Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process</rdfs:comment>
         <obo:IAO_0000600 xml:lang="en">[copied from inverse property &apos;realizes&apos;] to say that b realizes c at t is to assert that there is some material entity d &amp; b is a process which has participant d at t &amp; c is a disposition or role of which d is bearer_of at t&amp; the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])</obo:IAO_0000600>
-        <obo:IAO_0000118 xml:lang="en">is realized by</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">realized in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">realized_in</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this disease is realized in this disease course</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this fragility is realized in this shattering</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigator role is realized in this investigation</obo:IAO_0000112>
@@ -129,15 +127,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
@@ -191,39 +180,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002150">
-        <rdfs:label xml:lang="en">continuous with</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">X continuous_with Y if and only if X and Y share a fiat boundary.</obo:IAO_0000115>
-        <rdfs:seeAlso>FMA:85972</rdfs:seeAlso>
-        <obo:IAO_0000118>connected to</obo:IAO_0000118>
-        <obo:IAO_0000232>The label for this relation was previously connected to. I relabeled this to &quot;continuous with&quot;. The standard notion of connectedness does not imply shared boundaries - e.g. Glasgow connected_to Edinburgh via M8; my patella connected_to my femur (via patellar-femoral joint)</obo:IAO_0000232>
-        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
-        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002176 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;RO_0002176">
-        <rdfs:label xml:lang="en">connects</rdfs:label>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern</foaf:page>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern</foaf:page>
-        <obo:IAO_0000112>a &apos;toe distal phalanx bone&apos; that is connected to a &apos;toe medial phalanx bone&apos; (an interphalangeal joint *connects* these two bones).</obo:IAO_0000112>
-        <obo:IAO_0000115>c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.</obo:IAO_0000115>
-        <obo:IAO_0000112>The M8 connects Glasgow and Edinburgh</obo:IAO_0000112>
-        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
 
     <owl:AnnotationProperty rdf:about="&obo;RO_0002220">
@@ -243,7 +199,6 @@
 
     <owl:AnnotationProperty rdf:about="&obo;RO_0002303">
         <rdfs:label xml:lang="en">has habitat</rdfs:label>
-        <obo:IAO_0000118>adapted for living in</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000115>x &apos;has habitat&apos; y if and only if: x is an organism, y is a habitat, and x is specially adapted (either naturally or via artifical selection) to living in y. Here &apos;living in&apos; encompasses the majority of the animal&apos;s lifespan.</obo:IAO_0000115>
         <obo:IAO_0000112>Hydrozoa (NCBITaxon_6074) SubClassOf &apos;has habitat&apos; some &apos;marine environment&apos; (ENVO_00000569) -- http://eol.org/pages/1795/overview</obo:IAO_0000112>
@@ -323,7 +278,6 @@
         <rdfs:label>overlaps sequence of</rdfs:label>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000115>x overlaps the sequence of x if and only if x has a subsequence z and z is a subsequence of y.</obo:IAO_0000115>
-        <cito:citesAsAuthority rdf:resource="http://biorxiv.org/content/early/2014/06/27/006650.abstract"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002514"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:AnnotationProperty>
@@ -378,12 +332,6 @@
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="&dc;source"/>
-    
-
-
-    <!-- http://purl.org/spar/cito/citesAsAuthority -->
-
-    <owl:AnnotationProperty rdf:about="&cito;citesAsAuthority"/>
     
 
 
@@ -446,7 +394,6 @@
         <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
-        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
@@ -466,7 +413,6 @@
         <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
@@ -482,9 +428,7 @@
         <rdfs:label xml:lang="en">realized in</rdfs:label>
         <rdfs:comment>Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process</rdfs:comment>
         <obo:IAO_0000600 xml:lang="en">[copied from inverse property &apos;realizes&apos;] to say that b realizes c at t is to assert that there is some material entity d &amp; b is a process which has participant d at t &amp; c is a disposition or role of which d is bearer_of at t&amp; the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])</obo:IAO_0000600>
-        <obo:IAO_0000118 xml:lang="en">is realized by</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">realized in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">realized_in</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this disease is realized in this disease course</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this fragility is realized in this shattering</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigator role is realized in this investigation</obo:IAO_0000112>
@@ -518,19 +462,16 @@
         <rdfs:comment>Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">b occurs_in c =def b is a process and c is a material entity or immaterial entity&amp; there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.&amp; forall(t) if b exists_at t then c exists_at t &amp; there exist spatial regions s and s’ where &amp; b spatially_projects_onto s at t&amp; c is occupies_spatial_region s’ at t&amp; s is a proper_continuant_part_of s’ at t</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">occurs in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">occurs_in</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">unfolds in</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">unfolds_in</obo:IAO_0000118>
         <owl:inverseOf rdf:resource="&obo;BFO_0000067"/>
         <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;BFO_0000066"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000066"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000066"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -556,7 +497,6 @@
         <obo:IAO_0000116 xml:lang="en">A dependent inheres in its bearer at all times for which the dependent exists.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this fragility inheres in this vase</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this red color inheres in this apple</obo:IAO_0000112>
         <owl:inverseOf rdf:resource="&obo;RO_0000053"/>
@@ -573,8 +513,6 @@
         <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
@@ -589,7 +527,6 @@
         <rdfs:label xml:lang="en">participates in</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
@@ -605,7 +542,6 @@
         <rdfs:label xml:lang="en">has participant</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
         <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
         <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
@@ -614,12 +550,12 @@
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;RO_0000057"/>
+            <rdf:Description rdf:about="&obo;BFO_0000055"/>
+            <rdf:Description rdf:about="&obo;RO_0000052"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;BFO_0000055"/>
-            <rdf:Description rdf:about="&obo;RO_0000052"/>
+            <rdf:Description rdf:about="&obo;RO_0000057"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -631,8 +567,6 @@
         <rdfs:label xml:lang="en">quality of</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">A quality inheres in its bearer at all times for which the quality exists.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">is quality of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">quality_of</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this red color is a quality of this apple</obo:IAO_0000112>
         <owl:inverseOf rdf:resource="&obo;RO_0000086"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -646,7 +580,6 @@
         <rdfs:label xml:lang="en">has quality</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
@@ -661,7 +594,6 @@
         <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the location and the target, in which the target is entirely within the location</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">is location of</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">location_of</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">my head is the location of my brain</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this cage is the location of this rat</obo:IAO_0000112>
         <owl:inverseOf rdf:resource="&obo;RO_0001025"/>
@@ -681,7 +613,6 @@
         <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the target and the location, in which the target is entirely within the location</obo:IAO_0000115>
         <dc:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</dc:source>
         <obo:IAO_0000111 xml:lang="en">located in</obo:IAO_0000111>
-        <obo:IAO_0000118 xml:lang="en">located_in</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">my brain is located in my head</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this rat is located in this cage</obo:IAO_0000112>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
@@ -694,13 +625,9 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002000">
         <rdfs:label xml:lang="en">2D boundary of</rdfs:label>
-        <obo:IAO_0000118 xml:lang="en">2D_boundary_of</obo:IAO_0000118>
         <obo:IAO_0000116 xml:lang="en">A 2D boundary may have holes and gaps, but it must be a single connected entity, not an aggregate of several disconnected parts.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Although the boundary is two-dimensional, it exists in three-dimensional space and thus has a 3D shape.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">boundary of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">is 2D boundary of</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">is boundary of</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">the surface of my skin is a 2D boundary of my body</obo:IAO_0000112>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002002"/>
@@ -718,8 +645,6 @@
         <obo:IAO_0000116 xml:lang="en">Although the boundary is two-dimensional, it exists in three-dimensional space and thus has a 3D shape.</obo:IAO_0000116>
         <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">has boundary</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">has_2D_boundary</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">my body has 2D boundary the surface of my skin</obo:IAO_0000112>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
@@ -790,14 +715,12 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002101">
         <rdfs:label xml:lang="en">fasciculates with</rdfs:label>
-        <obo:IAO_0000118>fasciculates with</obo:IAO_0000118>
         <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002132"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
     </owl:ObjectProperty>
     
 
@@ -815,7 +738,6 @@
         <owl:inverseOf rdf:resource="&obo;RO_0002110"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002113"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002102"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -850,12 +772,10 @@
         <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">David Osumi-Sutherland</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">Relation between a neuron and some structure (e.g.- a brain region) in which it receives (chemical) synaptic input. </obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">synapsed in</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002130"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002110"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -870,12 +790,10 @@
         <rdfs:label xml:lang="en">has presynaptic terminal in</rdfs:label>
         <obo:IAO_0000424 xml:lang="en">&lt;http://purl.obolibrary.org/obo/BFO_0000051&gt; some (&lt;http://purl.obolibrary.org/obo/GO_0042734&gt; that &lt;http://purl.obolibrary.org/obo/BFO_0000050&gt; some (&lt;http://purl.obolibrary.org/obo/GO_0045202&gt; that &lt;http://purl.obolibrary.org/obo/BFO_0000050&gt; some Y?)</obo:IAO_0000424>
         <obo:IAO_0000115 xml:lang="en">Relation between a neuron and some structure (e.g.- a brain region) in which it receives (chemical) synaptic input.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">synapses in</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002130"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002113"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -894,7 +812,6 @@
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002110"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002121"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -908,14 +825,12 @@
     <owl:ObjectProperty rdf:about="&obo;RO_0002130">
         <rdfs:label xml:lang="en">has synaptic terminal in</rdfs:label>
         <obo:IAO_0000424>&lt;http://purl.obolibrary.org/obo/RO_0002131&gt; some (&lt;http://purl.obolibrary.org/obo/GO_0045202&gt; that &lt;http://purl.obolibrary.org/obo/BFO_0000050&gt; some Y?)</obo:IAO_0000424>
-        <obo:IAO_0000117 xml:lang="en">David Osumi-Sutherland</obo:IAO_0000117>
-        <obo:IAO_0000118>has synapse in</obo:IAO_0000118>
         <obo:IAO_0000115>A general relation between a neuron and some structure in which it either chemically synapses to some target or in which it receives (chemical) synaptic input.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">David Osumi-Sutherland</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002130"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
@@ -936,11 +851,11 @@
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
@@ -957,12 +872,10 @@
         <rdfs:label xml:lang="en">has fasciculating neuron projection</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">David Osumi-Sutherland</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">The relation between a neuron projection bundle and a neuron projection that is fasciculated with it.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">has fasciculating component</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <cito:citesAsAuthority rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22402613"/>
     </owl:ObjectProperty>
     
 
@@ -970,16 +883,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002150">
-        <rdfs:label xml:lang="en">continuous with</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">X continuous_with Y if and only if X and Y share a fiat boundary.</obo:IAO_0000115>
-        <rdfs:seeAlso>FMA:85972</rdfs:seeAlso>
-        <obo:IAO_0000118>connected to</obo:IAO_0000118>
-        <obo:IAO_0000232>The label for this relation was previously connected to. I relabeled this to &quot;continuous with&quot;. The standard notion of connectedness does not imply shared boundaries - e.g. Glasgow connected_to Edinburgh via M8; my patella connected_to my femur (via patellar-femoral joint)</obo:IAO_0000232>
-        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
-        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
     
 
@@ -988,7 +892,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002151">
         <rdfs:label xml:lang="en">partially overlaps</rdfs:label>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">proper overlaps</obo:IAO_0000118>
         <obo:IAO_0000115>x partially overlaps y iff there exists some z such that z is part of x and z is part of y, and it is also the case that neither x is part of y or y is part of x</obo:IAO_0000115>
         <obo:IAO_0000116>We would like to include disjointness axioms with part_of and has_part, however this is not possible in OWL2 as these are non-simple properties and hence cannot appear in a disjointness axiom</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
@@ -1024,15 +927,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002176 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002176">
-        <rdfs:label xml:lang="en">connects</rdfs:label>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern</foaf:page>
-        <foaf:page rdf:datatype="&xsd;anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern</foaf:page>
-        <obo:IAO_0000112>a &apos;toe distal phalanx bone&apos; that is connected to a &apos;toe medial phalanx bone&apos; (an interphalangeal joint *connects* these two bones).</obo:IAO_0000112>
-        <obo:IAO_0000115>c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.</obo:IAO_0000115>
-        <obo:IAO_0000112>The M8 connects Glasgow and Edinburgh</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
-        <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
     </owl:ObjectProperty>
     
 
@@ -1099,7 +994,6 @@
         <rdfs:label xml:lang="en">capable of</rdfs:label>
         <obo:IAO_0000115>A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. </obo:IAO_0000115>
         <obo:IAO_0000232>For compatibility with BFO, this relation has a shortcut definition in which the expression &quot;capable of some P&quot; expands to &quot;bearer_of (some realized_by only P)&quot;.</obo:IAO_0000232>
-        <obo:IAO_0000118>has function realized in</obo:IAO_0000118>
         <obo:IAO_0000424>RO_0000053 some (RO_0000054 only ?Y)</obo:IAO_0000424>
         <obo:IAO_0000112>mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)</obo:IAO_0000112>
         <obo:IAO_0000112>osteoclast SubClassOf &apos;capable of&apos; some &apos;bone resorption&apos;</obo:IAO_0000112>
@@ -1119,7 +1013,6 @@
         <rdfs:label xml:lang="en">actively participates in</rdfs:label>
         <obo:IAO_0000115>x actively participates in y if and only if x participates in y and x realizes some active role</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>agent in</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002218"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -1135,7 +1028,6 @@
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000116>This may be obsoleted and replaced by the original &apos;has agent&apos; relation</obo:IAO_0000116>
         <obo:IAO_0000115>x has participant y if and only if x realizes some active role that inheres in y</obo:IAO_0000115>
-        <obo:IAO_0000118>has agent</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
@@ -1189,7 +1081,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002303">
         <rdfs:label xml:lang="en">has habitat</rdfs:label>
-        <obo:IAO_0000118>adapted for living in</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000115>x &apos;has habitat&apos; y if and only if: x is an organism, y is a habitat, and x is specially adapted (either naturally or via artifical selection) to living in y. Here &apos;living in&apos; encompasses the majority of the animal&apos;s lifespan.</obo:IAO_0000115>
         <obo:IAO_0000112>Hydrozoa (NCBITaxon_6074) SubClassOf &apos;has habitat&apos; some &apos;marine environment&apos; (ENVO_00000569) -- http://eol.org/pages/1795/overview</obo:IAO_0000112>
@@ -1218,7 +1109,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002322">
         <rdfs:label xml:lang="en">confers advantage in</rdfs:label>
-        <obo:IAO_0000118>adapted for</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000116>An experimental relation currently used to connect a feature possessed by an organism (e.g. anatomical structure, biological process, phenotype or quality) to a habitat or environment in which that feature is well suited, adapted or provides a reproductive advantage for the organism. For example, fins to an aquatic environment. Usually this will mean that the structure is adapted for this environment, but we avoid saying this directly - primitive forms of the structure may not have evolved specifically for that environment (for example, early wings were not necessarily adapted for an aerial environment). Note also that this is a statement about the general class of structures - not every instance of a limb need confer an advantage for a terrestrial environment, e.g. if the limb is vestigial.</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002321"/>
@@ -1261,8 +1151,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002350">
         <rdfs:label xml:lang="en">member of</rdfs:label>
-        <obo:IAO_0000118>is member of</obo:IAO_0000118>
-        <obo:IAO_0000118>member part of</obo:IAO_0000118>
         <obo:IAO_0000119>SIO</obo:IAO_0000119>
         <obo:IAO_0000115>is member of is a mereological relation between a item and a collection.</obo:IAO_0000115>
         <obo:IAO_0000112>An organism that is a member of a population of organisms</obo:IAO_0000112>
@@ -1331,13 +1219,10 @@
         <obo:IAO_0000232 rdf:datatype="&xsd;anyURI">This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (veins, arteries)</obo:IAO_0000232>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://en.wikipedia.org/wiki/Tributary</rdfs:seeAlso>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>drains into</obo:IAO_0000118>
         <obo:IAO_0000112>Deschutes River tributary_of Columbia River</obo:IAO_0000112>
-        <obo:IAO_0000118>drains to</obo:IAO_0000118>
         <obo:IAO_0000115>x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.</obo:IAO_0000115>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Tributary</obo:IAO_0000119>
         <obo:IAO_0000119>http://www.medindia.net/glossary/venous_tributary.htm</obo:IAO_0000119>
-        <obo:IAO_0000118>tributary channel of</obo:IAO_0000118>
         <obo:IAO_0000112>inferior epigastric vein tributary_of external iliac vein</obo:IAO_0000112>
         <rdfs:seeAlso rdf:resource="http://dbpedia.org/ontology/drainsTo"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
@@ -1352,11 +1237,9 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002377">
         <rdfs:label xml:lang="en">distributary of</rdfs:label>
-        <obo:IAO_0000118>branch of</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Distributary</obo:IAO_0000119>
         <obo:IAO_0000115>x distributary_of y if and only if x is capable of channeling the flow of a substance to y, where y channels less of the substance than x</obo:IAO_0000115>
-        <obo:IAO_0000118>distributary channel of</obo:IAO_0000118>
         <obo:IAO_0000112>Deschutes River distributary_of Little Lava Lake</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002375"/>
@@ -1372,7 +1255,6 @@
         <rdfs:label xml:lang="en">anabranch of</rdfs:label>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000115>x anabranch_of y if x is a distributary of y (i.e. it channels a from a larger flow from y) and x ultimately channels the flow back into y.</obo:IAO_0000115>
-        <obo:IAO_0000118>anastomoses with</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002377"/>
         <owl:propertyDisjointWith rdf:resource="&obo;RO_0002382"/>
@@ -1523,10 +1405,8 @@
         <rdf:type rdf:resource="&owl;SymmetricProperty"/>
         <rdfs:label>molecularly interacts with</rdfs:label>
         <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/MI_0915</rdfs:seeAlso>
-        <obo:IAO_0000118>binds</obo:IAO_0000118>
         <obo:IAO_0000115>An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>molecularly binds with</obo:IAO_0000118>
         <rdfs:seeAlso rdf:resource="&obo;ECO_0000353"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
@@ -1538,7 +1418,6 @@
     <owl:ObjectProperty rdf:about="&obo;RO_0002437">
         <rdf:type rdf:resource="&owl;SymmetricProperty"/>
         <rdfs:label>biotically interacts with</rdfs:label>
-        <obo:IAO_0000118>interacts with on organism level</obo:IAO_0000118>
         <rdfs:seeAlso>http://eol.org/schema/terms/interactsWith</rdfs:seeAlso>
         <obo:IAO_0000115>An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
@@ -1569,9 +1448,7 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002439">
         <rdfs:label>preys on</rdfs:label>
-        <obo:IAO_0000118>preys upon</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>is subject of predation interaction with</obo:IAO_0000118>
         <obo:IAO_0000115>An interaction relationship involving a predation process, where the subject consumes all or part of the target</obo:IAO_0000115>
         <obo:IAO_0000112>Baleen whale preys on krill</obo:IAO_0000112>
         <rdfs:seeAlso>http://eol.org/schema/terms/preysUpon</rdfs:seeAlso>
@@ -1650,11 +1527,10 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002444">
         <rdfs:label>parasite of</rdfs:label>
-        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>parasitizes</obo:IAO_0000118>
         <obo:IAO_0000112>Pediculus humanus capitis parasite of human</obo:IAO_0000112>
-        <oboInOwl:hasExactSynonym>direct parasite of</oboInOwl:hasExactSynonym>
         <rdfs:seeAlso>http://eol.org/schema/terms/parasitizes</rdfs:seeAlso>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>direct parasite of</oboInOwl:hasExactSynonym>
         <obo:RO_0002560 rdf:resource="&obo;GO_0072519"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002443"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002445"/>
@@ -1671,8 +1547,6 @@
         <rdfs:label>parasitized by</rdfs:label>
         <oboInOwl:hasExactSynonym>directly parasitized by</oboInOwl:hasExactSynonym>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>has parasite</obo:IAO_0000118>
-        <obo:IAO_0000118>parasitised by</obo:IAO_0000118>
         <rdfs:seeAlso>http://eol.org/schema/terms/hasParasite</rdfs:seeAlso>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002443"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002453"/>
@@ -1702,7 +1576,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002447">
         <rdfs:label>phosphorylates</rdfs:label>
-        <obo:IAO_0000118>An interaction relation between x and y in which x catalyzes a reaction in which a phosphate group is added to y.</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000116>Axiomatization to GO to be added later</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002436"/>
@@ -1759,7 +1632,6 @@
         <rdfs:seeAlso>http://eol.org/schema/terms/pollinates</rdfs:seeAlso>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000116>This relation is intended to be used for biotic pollination - e.g. a bee pollinating a flowering plant. Some kinds of pollination may be semibiotic - e.g. wind can have the role of pollinator. We would use a separate relation for this.</obo:IAO_0000116>
-        <obo:IAO_0000118>is subject of pollination interaction with</obo:IAO_0000118>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002442"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002456"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -1774,8 +1646,6 @@
         <rdfs:label>pollinated by</rdfs:label>
         <rdfs:seeAlso>http://eol.org/schema/terms/hasPollinator</rdfs:seeAlso>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>is target of pollination interaction with</obo:IAO_0000118>
-        <obo:IAO_0000118>has polinator</obo:IAO_0000118>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002442"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
@@ -1803,8 +1673,6 @@
         <rdfs:label>preyed upon by</rdfs:label>
         <rdfs:seeAlso>http://polytraits.lifewatchgreece.eu/terms/PRED</rdfs:seeAlso>
         <rdfs:seeAlso>http://eol.org/schema/terms/HasPredator</rdfs:seeAlso>
-        <obo:IAO_0000118>has predator</obo:IAO_0000118>
-        <obo:IAO_0000118>is target of predation interaction with</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002438"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -1857,7 +1725,6 @@
     <owl:ObjectProperty rdf:about="&obo;RO_0002470">
         <rdfs:label>eats</rdfs:label>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000118>is subject of eating interaction with</obo:IAO_0000118>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002438"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
         <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
@@ -1869,8 +1736,6 @@
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002471">
         <rdfs:label>is eaten by</rdfs:label>
-        <obo:IAO_0000118>is target of eating interaction with</obo:IAO_0000118>
-        <obo:IAO_0000118>eaten by</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002438"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
@@ -1953,7 +1818,6 @@
         <rdfs:label>overlaps sequence of</rdfs:label>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000115>x overlaps the sequence of x if and only if x has a subsequence z and z is a subsequence of y.</obo:IAO_0000115>
-        <cito:citesAsAuthority rdf:resource="http://biorxiv.org/content/early/2014/06/27/006650.abstract"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
         <obo:IAO_0000412 rdf:resource="&obo;ro.owl"/>
     </owl:ObjectProperty>
@@ -1967,7 +1831,6 @@
         <obo:IAO_0000112>Forelimb SubClassOf has_skeleton some &apos;Forelimb skeleton&apos;</obo:IAO_0000112>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000232>The skeleton of a structure may be a true skeleton (for example, the bony skeleton of a hand) or any kind of support framework (the hydrostatic skeleton of a sea star, the exoskeleton of an insect, the cytoskeleton of a cell).</obo:IAO_0000232>
-        <obo:IAO_0000118>has supporting framework</obo:IAO_0000118>
         <obo:IAO_0000115>A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision.</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>
         <owl:inverseOf rdf:resource="&obo;RO_0002576"/>

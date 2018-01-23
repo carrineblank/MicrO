@@ -14,13 +14,13 @@
 
 <rdf:RDF xmlns="http://ontofox.hegroup.org/NDF-RT.owl#"
      xml:base="http://ontofox.hegroup.org/NDF-RT.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/NDF-RT_imports.owl"/>
     
 
@@ -38,67 +38,91 @@
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;Display_Name"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;Display_Name">
+        <rdfs:label>Display_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_CUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_CUI"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_CUI">
+        <rdfs:label>MeSH_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_DUI"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_DUI">
+        <rdfs:label>MeSH_DUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Definition -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Definition"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Definition">
+        <rdfs:label>MeSH_Definition</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Name"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;MeSH_Name">
+        <rdfs:label>MeSH_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;NUI"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;NUI">
+        <rdfs:label>NUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_CUI"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_CUI">
+        <rdfs:label>RxNorm_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_Name -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_Name"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;RxNorm_Name">
+        <rdfs:label>RxNorm_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;Synonym"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;Synonym">
+        <rdfs:label>Synonym</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI -->
 
-    <owl:AnnotationProperty rdf:about="&NDF-RT;UMLS_CUI"/>
-    
-
-
-    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#code -->
-
-    <owl:AnnotationProperty rdf:about="&NDF-RT;code"/>
+    <owl:AnnotationProperty rdf:about="&NDF-RT;UMLS_CUI">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -130,6 +154,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;Display_Name">
+        <rdfs:label>Display_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -138,6 +164,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_CUI -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_CUI">
+        <rdfs:label>MeSH_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -146,6 +174,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_DUI">
+        <rdfs:label>MeSH_DUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -154,6 +184,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Definition -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_Definition">
+        <rdfs:label>MeSH_Definition</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -162,6 +194,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;MeSH_Name">
+        <rdfs:label>MeSH_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -170,6 +204,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;NUI">
+        <rdfs:label>NUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -178,6 +214,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;RxNorm_CUI">
+        <rdfs:label>RxNorm_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -186,6 +224,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_Name -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;RxNorm_Name">
+        <rdfs:label>RxNorm_Name</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -194,6 +234,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;Synonym">
+        <rdfs:label>Synonym</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -202,6 +244,8 @@
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI -->
 
     <owl:DatatypeProperty rdf:about="&NDF-RT;UMLS_CUI">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -230,11 +274,10 @@
 
     <owl:Class rdf:about="&NDF-RT;N0000000002">
         <rdfs:label>Chemical Ingredients [Chemical/Ingredient]</rdfs:label>
-        <NDF-RT:UMLS_CUI>C0085993</NDF-RT:UMLS_CUI>
-        <NDF-RT:code>C178</NDF-RT:code>
+        <NDF-RT:Display_Name>Chemical Ingredients</NDF-RT:Display_Name>
         <NDF-RT:NUI>N0000000002</NDF-RT:NUI>
         <NDF-RT:RxNorm_CUI>991181</NDF-RT:RxNorm_CUI>
-        <NDF-RT:Display_Name>Chemical Ingredients</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C0085993</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -246,14 +289,13 @@
         <rdfs:label>Carbohydrates [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000000002"/>
         <NDF-RT:MeSH_Definition>The largest class of organic compounds, including STARCH; GLYCOGEN; CELLULOSE; POLYSACCHARIDES; and simple MONOSACCHARIDES. Carbohydrates are composed of carbon, hydrogen, and oxygen in a ratio of Cn(H2O)n.</NDF-RT:MeSH_Definition>
+        <NDF-RT:NUI>N0000005723</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D002241</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>2028</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_Name>Carbohydrates</NDF-RT:MeSH_Name>
         <NDF-RT:Display_Name>Carbohydrates</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_DUI>D002241</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_CUI>M0003360</NDF-RT:MeSH_CUI>
-        <NDF-RT:code>C21790</NDF-RT:code>
         <NDF-RT:UMLS_CUI>C0007004</NDF-RT:UMLS_CUI>
-        <NDF-RT:RxNorm_CUI>2028</NDF-RT:RxNorm_CUI>
-        <NDF-RT:NUI>N0000005723</NDF-RT:NUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -265,20 +307,19 @@
         <rdfs:label>Peptide Hydrolases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007978"/>
         <NDF-RT:RxNorm_CUI>8028</NDF-RT:RxNorm_CUI>
-        <NDF-RT:NUI>N0000005793</NDF-RT:NUI>
+        <NDF-RT:Synonym>Esteroproteases</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Peptidases</NDF-RT:Synonym>
         <NDF-RT:RxNorm_Name>Peptide Hydrolases</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_Name>Peptide Hydrolases</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_Definition>Hydrolases that specifically cleave the peptide bonds found in PROTEINS and PEPTIDES. Examples of sub-subclasses for this group include EXOPEPTIDASES and ENDOPEPTIDASES.</NDF-RT:MeSH_Definition>
         <NDF-RT:Synonym>Proteases</NDF-RT:Synonym>
         <NDF-RT:MeSH_CUI>M0016225</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_Definition>Hydrolases that specifically cleave the peptide bonds found in PROTEINS and PEPTIDES. Examples of sub-subclasses for this group include EXOPEPTIDASES and ENDOPEPTIDASES.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Display_Name>Peptide Hydrolases</NDF-RT:Display_Name>
-        <NDF-RT:Synonym>Peptidases</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Esteroproteases</NDF-RT:Synonym>
         <NDF-RT:UMLS_CUI>C0030940</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D010447</NDF-RT:MeSH_DUI>
         <NDF-RT:Synonym>Proteinases</NDF-RT:Synonym>
         <NDF-RT:Synonym>Proteolytic Enzymes</NDF-RT:Synonym>
-        <NDF-RT:code>C21930</NDF-RT:code>
-        <NDF-RT:MeSH_Name>Peptide Hydrolases</NDF-RT:MeSH_Name>
-        <NDF-RT:MeSH_DUI>D010447</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000005793</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Peptide Hydrolases</NDF-RT:Display_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -289,17 +330,16 @@
     <owl:Class rdf:about="&NDF-RT;N0000005810">
         <rdfs:label>Endopeptidases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005793"/>
+        <NDF-RT:UMLS_CUI>C0030946</NDF-RT:UMLS_CUI>
         <NDF-RT:RxNorm_Name>Endopeptidases</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_DUI>D010450</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>Peptide Peptidohydrolases</NDF-RT:Synonym>
         <NDF-RT:RxNorm_CUI>8031</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_CUI>M0016230</NDF-RT:MeSH_CUI>
         <NDF-RT:NUI>N0000005810</NDF-RT:NUI>
         <NDF-RT:Display_Name>Endopeptidases</NDF-RT:Display_Name>
-        <NDF-RT:UMLS_CUI>C0030946</NDF-RT:UMLS_CUI>
-        <NDF-RT:code>C21964</NDF-RT:code>
-        <NDF-RT:Synonym>Peptide Peptidohydrolases</NDF-RT:Synonym>
         <NDF-RT:MeSH_Definition>A subclass of PEPTIDE HYDROLASES that catalyze the internal cleavage of PEPTIDES or PROTEINS.</NDF-RT:MeSH_Definition>
         <NDF-RT:MeSH_Name>Endopeptidases</NDF-RT:MeSH_Name>
-        <NDF-RT:MeSH_DUI>D010450</NDF-RT:MeSH_DUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -310,16 +350,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000005817">
         <rdfs:label>Proteins [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000000002"/>
-        <NDF-RT:code>C21978</NDF-RT:code>
-        <NDF-RT:MeSH_Name>Proteins</NDF-RT:MeSH_Name>
-        <NDF-RT:RxNorm_Name>Proteins</NDF-RT:RxNorm_Name>
-        <NDF-RT:RxNorm_CUI>8859</NDF-RT:RxNorm_CUI>
-        <NDF-RT:UMLS_CUI>C0033684</NDF-RT:UMLS_CUI>
         <NDF-RT:NUI>N0000005817</NDF-RT:NUI>
+        <NDF-RT:UMLS_CUI>C0033684</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_CUI>M0017890</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_Definition>Linear POLYPEPTIDES that are synthesized on RIBOSOMES and may be further modified, crosslinked, cleaved, or assembled into complex proteins with several subunits. The specific sequence of AMINO ACIDS determines the shape the polypeptide will take, during PROTEIN FOLDING, and the function of the protein.</NDF-RT:MeSH_Definition>
-        <NDF-RT:MeSH_DUI>D011506</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>8859</NDF-RT:RxNorm_CUI>
         <NDF-RT:Display_Name>Proteins</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D011506</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_Name>Proteins</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_Definition>Linear POLYPEPTIDES that are synthesized on RIBOSOMES and may be further modified, crosslinked, cleaved, or assembled into complex proteins with several subunits. The specific sequence of AMINO ACIDS determines the shape the polypeptide will take, during PROTEIN FOLDING, and the function of the protein.</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_Name>Proteins</NDF-RT:MeSH_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -330,16 +369,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000005865">
         <rdfs:label>Charcoal [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007500"/>
-        <NDF-RT:Display_Name>Charcoal</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Name>Charcoal</NDF-RT:MeSH_Name>
-        <NDF-RT:code>C22074</NDF-RT:code>
-        <NDF-RT:MeSH_CUI>M0003993</NDF-RT:MeSH_CUI>
-        <NDF-RT:NUI>N0000005865</NDF-RT:NUI>
-        <NDF-RT:UMLS_CUI>C0007955</NDF-RT:UMLS_CUI>
         <NDF-RT:RxNorm_Name>Charcoal</NDF-RT:RxNorm_Name>
-        <NDF-RT:MeSH_Definition>An amorphous form of carbon prepared from the incomplete combustion of animal or vegetable matter, e.g., wood. The activated form of charcoal is used in the treatment of poisoning. (Grant &amp; Hackh&apos;s Chemical Dictionary, 5th ed)</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_Name>Charcoal</NDF-RT:MeSH_Name>
         <NDF-RT:MeSH_DUI>D002606</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C0007955</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000005865</NDF-RT:NUI>
         <NDF-RT:RxNorm_CUI>2296</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Charcoal</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Definition>An amorphous form of carbon prepared from the incomplete combustion of animal or vegetable matter, e.g., wood. The activated form of charcoal is used in the treatment of poisoning. (Grant &amp; Hackh&apos;s Chemical Dictionary, 5th ed)</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_CUI>M0003993</NDF-RT:MeSH_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -351,16 +389,15 @@
         <rdfs:label>Gelatin [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007765"/>
         <NDF-RT:RxNorm_Name>Gelatin</NDF-RT:RxNorm_Name>
+        <NDF-RT:RxNorm_CUI>4716</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D005780</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>Gelatins</NDF-RT:Synonym>
         <NDF-RT:MeSH_Name>Gelatin</NDF-RT:MeSH_Name>
         <NDF-RT:MeSH_CUI>M0009052</NDF-RT:MeSH_CUI>
-        <NDF-RT:UMLS_CUI>C0017237</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_DUI>D005780</NDF-RT:MeSH_DUI>
-        <NDF-RT:code>C23126</NDF-RT:code>
-        <NDF-RT:Synonym>Gelatins</NDF-RT:Synonym>
-        <NDF-RT:MeSH_Definition>A product formed from skin, white connective tissue, or bone COLLAGEN. It is used as a protein food adjuvant, plasma substitute, hemostatic, suspending agent in pharmaceutical preparations, and in the manufacturing of capsules and suppositories.</NDF-RT:MeSH_Definition>
-        <NDF-RT:RxNorm_CUI>4716</NDF-RT:RxNorm_CUI>
-        <NDF-RT:NUI>N0000006389</NDF-RT:NUI>
         <NDF-RT:Display_Name>Gelatin</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000006389</NDF-RT:NUI>
+        <NDF-RT:MeSH_Definition>A product formed from skin, white connective tissue, or bone COLLAGEN. It is used as a protein food adjuvant, plasma substitute, hemostatic, suspending agent in pharmaceutical preparations, and in the manufacturing of capsules and suppositories.</NDF-RT:MeSH_Definition>
+        <NDF-RT:UMLS_CUI>C0017237</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -371,19 +408,18 @@
     <owl:Class rdf:about="&NDF-RT;N0000006395">
         <rdfs:label>Collagenases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000011381"/>
-        <NDF-RT:MeSH_CUI>M0026363</NDF-RT:MeSH_CUI>
-        <NDF-RT:RxNorm_CUI>58939</NDF-RT:RxNorm_CUI>
-        <NDF-RT:UMLS_CUI>C0162745</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_DUI>D017364</NDF-RT:MeSH_DUI>
-        <NDF-RT:code>C23138</NDF-RT:code>
-        <NDF-RT:MeSH_Definition>Enzymes that catalyze the degradation of collagen by acting on the peptide bonds.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Synonym>Collagenase</NDF-RT:Synonym>
         <NDF-RT:MeSH_Name>Collagenases</NDF-RT:MeSH_Name>
         <NDF-RT:Display_Name>Collagenases</NDF-RT:Display_Name>
-        <NDF-RT:Synonym>Collagen Peptidase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Collagen-Degrading Enzyme</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>58939</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_DUI>D017364</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_CUI>M0026363</NDF-RT:MeSH_CUI>
         <NDF-RT:RxNorm_Name>COLLAGENASE</NDF-RT:RxNorm_Name>
+        <NDF-RT:UMLS_CUI>C0162745</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Collagenase</NDF-RT:Synonym>
         <NDF-RT:NUI>N0000006395</NDF-RT:NUI>
+        <NDF-RT:Synonym>Collagen Peptidase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>Enzymes that catalyze the degradation of collagen by acting on the peptide bonds.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>Collagen-Degrading Enzyme</NDF-RT:Synonym>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -394,18 +430,17 @@
     <owl:Class rdf:about="&NDF-RT;N0000006500">
         <rdfs:label>guar gum [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007785"/>
-        <NDF-RT:UMLS_CUI>C0061996</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>guaran</NDF-RT:Synonym>
+        <NDF-RT:Synonym>gum guar</NDF-RT:Synonym>
         <NDF-RT:RxNorm_CUI>26344</NDF-RT:RxNorm_CUI>
         <NDF-RT:Synonym>guar flour</NDF-RT:Synonym>
-        <NDF-RT:MeSH_CUI>M0051358</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_DUI>C007894</NDF-RT:MeSH_DUI>
-        <NDF-RT:Synonym>guaran</NDF-RT:Synonym>
-        <NDF-RT:RxNorm_Name>guar gum</NDF-RT:RxNorm_Name>
         <NDF-RT:Display_Name>guar gum</NDF-RT:Display_Name>
-        <NDF-RT:code>C23348</NDF-RT:code>
-        <NDF-RT:NUI>N0000006500</NDF-RT:NUI>
-        <NDF-RT:Synonym>gum guar</NDF-RT:Synonym>
         <NDF-RT:MeSH_Name>guar gum</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_DUI>C007894</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_Name>guar gum</NDF-RT:RxNorm_Name>
+        <NDF-RT:NUI>N0000006500</NDF-RT:NUI>
+        <NDF-RT:MeSH_CUI>M0051358</NDF-RT:MeSH_CUI>
+        <NDF-RT:UMLS_CUI>C0061996</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -416,16 +451,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000006609">
         <rdfs:label>Agar [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007785"/>
-        <NDF-RT:NUI>N0000006609</NDF-RT:NUI>
-        <NDF-RT:code>C23566</NDF-RT:code>
         <NDF-RT:MeSH_Name>Agar</NDF-RT:MeSH_Name>
-        <NDF-RT:UMLS_CUI>C0001771</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Definition>A complex sulfated polymer of galactose units, extracted from Gelidium cartilagineum, Gracilaria confervoides, and related red algae. It is used as a gel in the preparation of solid culture media for microorganisms, as a bulk laxative, in making emulsions, and as a supporting medium for immunodiffusion and immunoelectrophoresis.</NDF-RT:MeSH_Definition>
-        <NDF-RT:MeSH_DUI>D000362</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_CUI>M0000553</NDF-RT:MeSH_CUI>
         <NDF-RT:RxNorm_CUI>397</NDF-RT:RxNorm_CUI>
-        <NDF-RT:Display_Name>Agar</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000006609</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D000362</NDF-RT:MeSH_DUI>
         <NDF-RT:RxNorm_Name>Agar</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_Definition>A complex sulfated polymer of galactose units, extracted from Gelidium cartilagineum, Gracilaria confervoides, and related red algae. It is used as a gel in the preparation of solid culture media for microorganisms, as a bulk laxative, in making emulsions, and as a supporting medium for immunodiffusion and immunoelectrophoresis.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Display_Name>Agar</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C0001771</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -437,16 +471,15 @@
         <rdfs:label>Caseins [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005817"/>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007512"/>
+        <NDF-RT:NUI>N0000006768</NDF-RT:NUI>
+        <NDF-RT:MeSH_Definition>A mixture of related phosphoproteins occurring in milk and cheese. The group is characterized as one of the most nutritive milk proteins, containing all of the common amino acids and rich in the essential ones.</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_CUI>M0003590</NDF-RT:MeSH_CUI>
+        <NDF-RT:Display_Name>Caseins</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D002364</NDF-RT:MeSH_DUI>
         <NDF-RT:RxNorm_CUI>2126</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_Name>Caseins</NDF-RT:MeSH_Name>
-        <NDF-RT:NUI>N0000006768</NDF-RT:NUI>
-        <NDF-RT:Display_Name>Caseins</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Definition>A mixture of related phosphoproteins occurring in milk and cheese. The group is characterized as one of the most nutritive milk proteins, containing all of the common amino acids and rich in the essential ones.</NDF-RT:MeSH_Definition>
         <NDF-RT:Synonym>Casein</NDF-RT:Synonym>
-        <NDF-RT:MeSH_DUI>D002364</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_CUI>M0003590</NDF-RT:MeSH_CUI>
         <NDF-RT:UMLS_CUI>C0007332</NDF-RT:UMLS_CUI>
-        <NDF-RT:code>C23886</NDF-RT:code>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -457,16 +490,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000006796">
         <rdfs:label>Catalase [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000008022"/>
-        <NDF-RT:RxNorm_CUI>2133</NDF-RT:RxNorm_CUI>
         <NDF-RT:RxNorm_Name>CATALASE</NDF-RT:RxNorm_Name>
-        <NDF-RT:MeSH_DUI>D002374</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>2133</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Definition>An oxidoreductase that catalyzes the conversion of HYDROGEN PEROXIDE to water and oxygen. It is present in many animal cells. A deficiency of this enzyme results in ACATALASIA.</NDF-RT:MeSH_Definition>
         <NDF-RT:MeSH_CUI>M0003613</NDF-RT:MeSH_CUI>
-        <NDF-RT:NUI>N0000006796</NDF-RT:NUI>
         <NDF-RT:Display_Name>Catalase</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_DUI>D002374</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000006796</NDF-RT:NUI>
         <NDF-RT:MeSH_Name>Catalase</NDF-RT:MeSH_Name>
         <NDF-RT:UMLS_CUI>C0007367</NDF-RT:UMLS_CUI>
-        <NDF-RT:code>C23942</NDF-RT:code>
-        <NDF-RT:MeSH_Definition>An oxidoreductase that catalyzes the conversion of HYDROGEN PEROXIDE to water and oxygen. It is present in many animal cells. A deficiency of this enzyme results in ACATALASIA.</NDF-RT:MeSH_Definition>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -477,16 +509,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000006979">
         <rdfs:label>Chymotrypsin [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007945"/>
-        <NDF-RT:code>C24308</NDF-RT:code>
         <NDF-RT:MeSH_DUI>D002918</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_CUI>M0004462</NDF-RT:MeSH_CUI>
-        <NDF-RT:RxNorm_CUI>2530</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_Definition>A serine endopeptidase secreted by the pancreas as its zymogen, CHYMOTRYPSINOGEN and carried in the pancreatic juice to the duodenum where it is activated by TRYPSIN. It selectively cleaves aromatic amino acids on the carboxyl side.</NDF-RT:MeSH_Definition>
-        <NDF-RT:RxNorm_Name>CHYMOTRYPSIN</NDF-RT:RxNorm_Name>
-        <NDF-RT:UMLS_CUI>C0008742</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Name>Chymotrypsin</NDF-RT:MeSH_Name>
-        <NDF-RT:Display_Name>Chymotrypsin</NDF-RT:Display_Name>
         <NDF-RT:NUI>N0000006979</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>2530</NDF-RT:RxNorm_CUI>
+        <NDF-RT:RxNorm_Name>CHYMOTRYPSIN</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_Name>Chymotrypsin</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_CUI>M0004462</NDF-RT:MeSH_CUI>
+        <NDF-RT:MeSH_Definition>A serine endopeptidase secreted by the pancreas as its zymogen, CHYMOTRYPSINOGEN and carried in the pancreatic juice to the duodenum where it is activated by TRYPSIN. It selectively cleaves aromatic amino acids on the carboxyl side.</NDF-RT:MeSH_Definition>
+        <NDF-RT:UMLS_CUI>C0008742</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Chymotrypsin</NDF-RT:Display_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -497,17 +528,16 @@
     <owl:Class rdf:about="&NDF-RT;N0000007037">
         <rdfs:label>Trypsin [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007945"/>
+        <NDF-RT:UMLS_CUI>C0041236</NDF-RT:UMLS_CUI>
         <NDF-RT:NUI>N0000007037</NDF-RT:NUI>
-        <NDF-RT:Synonym>Tripcellim</NDF-RT:Synonym>
         <NDF-RT:RxNorm_CUI>10890</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Trypsin</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_DUI>D014357</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_CUI>M0022078</NDF-RT:MeSH_CUI>
         <NDF-RT:MeSH_Definition>A serine endopeptidase that is formed from TRYPSINOGEN in the pancreas. It is converted into its active form by ENTEROPEPTIDASE in the small intestine. It catalyzes hydrolysis of the carboxyl group of either arginine or lysine. EC 3.4.21.4.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>Tripcellim</NDF-RT:Synonym>
         <NDF-RT:Display_Name>Trypsin</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_DUI>D014357</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_Name>Trypsin</NDF-RT:MeSH_Name>
-        <NDF-RT:code>C24424</NDF-RT:code>
         <NDF-RT:RxNorm_Name>TRYPSIN</NDF-RT:RxNorm_Name>
-        <NDF-RT:UMLS_CUI>C0041236</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -518,15 +548,14 @@
     <owl:Class rdf:about="&NDF-RT;N0000007500">
         <rdfs:label>Carbon [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000000002"/>
-        <NDF-RT:code>C25356</NDF-RT:code>
+        <NDF-RT:MeSH_CUI>M0003365</NDF-RT:MeSH_CUI>
+        <NDF-RT:MeSH_Name>Carbon</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>2031</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Definition>A nonmetallic element with atomic symbol C, atomic number 6, and atomic weight [12.0096; 12.0116]. It may occur as several different allotropes including DIAMOND; CHARCOAL; and GRAPHITE; and as SOOT from incompletely burned fuel.</NDF-RT:MeSH_Definition>
         <NDF-RT:MeSH_DUI>D002244</NDF-RT:MeSH_DUI>
         <NDF-RT:UMLS_CUI>C0007009</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Name>Carbon</NDF-RT:MeSH_Name>
         <NDF-RT:Display_Name>Carbon</NDF-RT:Display_Name>
         <NDF-RT:NUI>N0000007500</NDF-RT:NUI>
-        <NDF-RT:MeSH_Definition>A nonmetallic element with atomic symbol C, atomic number 6, and atomic weight [12.0096; 12.0116]. It may occur as several different allotropes including DIAMOND; CHARCOAL; and GRAPHITE; and as SOOT from incompletely burned fuel.</NDF-RT:MeSH_Definition>
-        <NDF-RT:MeSH_CUI>M0003365</NDF-RT:MeSH_CUI>
-        <NDF-RT:RxNorm_CUI>2031</NDF-RT:RxNorm_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -537,16 +566,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000007512">
         <rdfs:label>Dietary Proteins [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005817"/>
-        <NDF-RT:Synonym>Proteins, Dietary</NDF-RT:Synonym>
-        <NDF-RT:MeSH_Name>Dietary Proteins</NDF-RT:MeSH_Name>
-        <NDF-RT:NUI>N0000007512</NDF-RT:NUI>
-        <NDF-RT:RxNorm_CUI>3380</NDF-RT:RxNorm_CUI>
-        <NDF-RT:UMLS_CUI>C0012177</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_DUI>D004044</NDF-RT:MeSH_DUI>
-        <NDF-RT:code>C25380</NDF-RT:code>
         <NDF-RT:Display_Name>Dietary Proteins</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_CUI>M0006342</NDF-RT:MeSH_CUI>
+        <NDF-RT:Synonym>Proteins, Dietary</NDF-RT:Synonym>
         <NDF-RT:MeSH_Definition>Proteins obtained from foods. They are the main source of the ESSENTIAL AMINO ACIDS.</NDF-RT:MeSH_Definition>
+        <NDF-RT:NUI>N0000007512</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D004044</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C0012177</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_Name>Dietary Proteins</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_CUI>M0006342</NDF-RT:MeSH_CUI>
+        <NDF-RT:RxNorm_CUI>3380</NDF-RT:RxNorm_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -557,16 +585,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000007765">
         <rdfs:label>Scleroproteins [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005817"/>
-        <NDF-RT:code>C25890</NDF-RT:code>
+        <NDF-RT:UMLS_CUI>C0036425</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_Name>Scleroproteins</NDF-RT:MeSH_Name>
-        <NDF-RT:RxNorm_CUI>9596</NDF-RT:RxNorm_CUI>
         <NDF-RT:Display_Name>Scleroproteins</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Fibrous Proteins</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000007765</NDF-RT:NUI>
+        <NDF-RT:MeSH_CUI>M0019544</NDF-RT:MeSH_CUI>
         <NDF-RT:MeSH_DUI>D012596</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_Definition>Simple proteins characterized by their insolubility and fibrous structure. Within the body, they perform a supportive or protective function.</NDF-RT:MeSH_Definition>
-        <NDF-RT:UMLS_CUI>C0036425</NDF-RT:UMLS_CUI>
-        <NDF-RT:Synonym>Fibrous Proteins</NDF-RT:Synonym>
-        <NDF-RT:MeSH_CUI>M0019544</NDF-RT:MeSH_CUI>
-        <NDF-RT:NUI>N0000007765</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>9596</NDF-RT:RxNorm_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -577,16 +604,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000007785">
         <rdfs:label>Galactans [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000007837"/>
-        <NDF-RT:UMLS_CUI>C0016932</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Definition>Polysaccharides composed of repeating galactose units. They can consist of branched or unbranched chains in any linkages.</NDF-RT:MeSH_Definition>
-        <NDF-RT:code>C25930</NDF-RT:code>
-        <NDF-RT:Synonym>Polygalactoses</NDF-RT:Synonym>
-        <NDF-RT:MeSH_DUI>D005685</NDF-RT:MeSH_DUI>
-        <NDF-RT:NUI>N0000007785</NDF-RT:NUI>
         <NDF-RT:MeSH_Name>Galactans</NDF-RT:MeSH_Name>
-        <NDF-RT:RxNorm_CUI>4622</NDF-RT:RxNorm_CUI>
-        <NDF-RT:Display_Name>Galactans</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000007785</NDF-RT:NUI>
         <NDF-RT:MeSH_CUI>M0008933</NDF-RT:MeSH_CUI>
+        <NDF-RT:Display_Name>Galactans</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Definition>Polysaccharides composed of repeating galactose units. They can consist of branched or unbranched chains in any linkages.</NDF-RT:MeSH_Definition>
+        <NDF-RT:RxNorm_CUI>4622</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Polygalactoses</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C0016932</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D005685</NDF-RT:MeSH_DUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -597,16 +623,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000007837">
         <rdfs:label>Polysaccharides [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005723"/>
-        <NDF-RT:Display_Name>Polysaccharides</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_DUI>D011134</NDF-RT:MeSH_DUI>
-        <NDF-RT:UMLS_CUI>C0032594</NDF-RT:UMLS_CUI>
-        <NDF-RT:RxNorm_Name>Polysaccharides</NDF-RT:RxNorm_Name>
         <NDF-RT:NUI>N0000007837</NDF-RT:NUI>
-        <NDF-RT:RxNorm_CUI>8556</NDF-RT:RxNorm_CUI>
+        <NDF-RT:RxNorm_Name>Polysaccharides</NDF-RT:RxNorm_Name>
+        <NDF-RT:UMLS_CUI>C0032594</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_CUI>M0017249</NDF-RT:MeSH_CUI>
         <NDF-RT:MeSH_Name>Polysaccharides</NDF-RT:MeSH_Name>
-        <NDF-RT:code>C26034</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D011134</NDF-RT:MeSH_DUI>
+        <NDF-RT:RxNorm_CUI>8556</NDF-RT:RxNorm_CUI>
         <NDF-RT:Synonym>Glycans</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Polysaccharides</NDF-RT:Display_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -619,13 +644,12 @@
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005810"/>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000180271"/>
         <NDF-RT:Display_Name>Serine Endopeptidases</NDF-RT:Display_Name>
-        <NDF-RT:UMLS_CUI>C0036734</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_DUI>D012697</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_Name>Serine Endopeptidases</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_CUI>M0019678</NDF-RT:MeSH_CUI>
+        <NDF-RT:UMLS_CUI>C0036734</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_Definition>Any member of the group of ENDOPEPTIDASES containing at the active site a serine residue involved in catalysis.</NDF-RT:MeSH_Definition>
         <NDF-RT:RxNorm_CUI>9677</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_CUI>M0019678</NDF-RT:MeSH_CUI>
-        <NDF-RT:code>C26252</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Serine Endopeptidases</NDF-RT:MeSH_Name>
         <NDF-RT:NUI>N0000007945</NDF-RT:NUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
@@ -637,15 +661,14 @@
     <owl:Class rdf:about="&NDF-RT;N0000007978">
         <rdfs:label>Hydrolases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000008262"/>
-        <NDF-RT:MeSH_CUI>M0010728</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_DUI>D006867</NDF-RT:MeSH_DUI>
-        <NDF-RT:RxNorm_CUI>5505</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_Definition>Any member of the class of enzymes that catalyze the cleavage of the substrate and the addition of water to the resulting molecules, e.g., ESTERASES, glycosidases (GLYCOSIDE HYDROLASES), lipases, NUCLEOTIDASES, peptidases (PEPTIDE HYDROLASES), and phosphatases (PHOSPHORIC MONOESTER HYDROLASES). EC 3.</NDF-RT:MeSH_Definition>
-        <NDF-RT:UMLS_CUI>C0020289</NDF-RT:UMLS_CUI>
-        <NDF-RT:Display_Name>Hydrolases</NDF-RT:Display_Name>
         <NDF-RT:MeSH_Name>Hydrolases</NDF-RT:MeSH_Name>
+        <NDF-RT:Display_Name>Hydrolases</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Definition>Any member of the class of enzymes that catalyze the cleavage of the substrate and the addition of water to the resulting molecules, e.g., ESTERASES, glycosidases (GLYCOSIDE HYDROLASES), lipases, NUCLEOTIDASES, peptidases (PEPTIDE HYDROLASES), and phosphatases (PHOSPHORIC MONOESTER HYDROLASES). EC 3.</NDF-RT:MeSH_Definition>
         <NDF-RT:NUI>N0000007978</NDF-RT:NUI>
-        <NDF-RT:code>C26320</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D006867</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_CUI>M0010728</NDF-RT:MeSH_CUI>
+        <NDF-RT:RxNorm_CUI>5505</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C0020289</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -656,13 +679,12 @@
     <owl:Class rdf:about="&NDF-RT;N0000008022">
         <rdfs:label>Peroxidases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000008209"/>
-        <NDF-RT:code>C26408</NDF-RT:code>
-        <NDF-RT:RxNorm_CUI>8074</NDF-RT:RxNorm_CUI>
-        <NDF-RT:NUI>N0000008022</NDF-RT:NUI>
-        <NDF-RT:MeSH_Name>Peroxidases</NDF-RT:MeSH_Name>
-        <NDF-RT:Display_Name>Peroxidases</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_DUI>D010544</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_CUI>M0016376</NDF-RT:MeSH_CUI>
+        <NDF-RT:RxNorm_CUI>8074</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_Name>Peroxidases</NDF-RT:MeSH_Name>
+        <NDF-RT:NUI>N0000008022</NDF-RT:NUI>
+        <NDF-RT:MeSH_DUI>D010544</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Peroxidases</NDF-RT:Display_Name>
         <NDF-RT:UMLS_CUI>C0031179</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
@@ -674,19 +696,18 @@
     <owl:Class rdf:about="&NDF-RT;N0000008209">
         <rdfs:label>Oxidoreductases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000008262"/>
-        <NDF-RT:Synonym>Reductase</NDF-RT:Synonym>
-        <NDF-RT:Display_Name>Oxidoreductases</NDF-RT:Display_Name>
-        <NDF-RT:Synonym>Dehydrogenases</NDF-RT:Synonym>
-        <NDF-RT:MeSH_Name>Oxidoreductases</NDF-RT:MeSH_Name>
         <NDF-RT:MeSH_CUI>M0015649</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_DUI>D010088</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_Definition>The class of all enzymes catalyzing oxidoreduction reactions. The substrate that is oxidized is regarded as a hydrogen donor. The systematic name is based on donor:acceptor oxidoreductase. The recommended name will be dehydrogenase, wherever this is possible; as an alternative, reductase can be used. Oxidase is only used in cases where O2 is the acceptor. (Enzyme Nomenclature, 1992, p9)</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>Dehydrogenases</NDF-RT:Synonym>
         <NDF-RT:UMLS_CUI>C0030016</NDF-RT:UMLS_CUI>
-        <NDF-RT:NUI>N0000008209</NDF-RT:NUI>
-        <NDF-RT:code>C26782</NDF-RT:code>
-        <NDF-RT:Synonym>Dehydrogenase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_DUI>D010088</NDF-RT:MeSH_DUI>
         <NDF-RT:RxNorm_CUI>7794</NDF-RT:RxNorm_CUI>
         <NDF-RT:Synonym>Reductases</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Reductase</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000008209</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Oxidoreductases</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_Name>Oxidoreductases</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Dehydrogenase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>The class of all enzymes catalyzing oxidoreduction reactions. The substrate that is oxidized is regarded as a hydrogen donor. The systematic name is based on donor:acceptor oxidoreductase. The recommended name will be dehydrogenase, wherever this is possible; as an alternative, reductase can be used. Oxidase is only used in cases where O2 is the acceptor. (Enzyme Nomenclature, 1992, p9)</NDF-RT:MeSH_Definition>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -697,16 +718,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000008262">
         <rdfs:label>Enzymes [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000011388"/>
-        <NDF-RT:NUI>N0000008262</NDF-RT:NUI>
-        <NDF-RT:MeSH_Definition>Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified.</NDF-RT:MeSH_Definition>
-        <NDF-RT:MeSH_CUI>M0007528</NDF-RT:MeSH_CUI>
-        <NDF-RT:RxNorm_CUI>3960</NDF-RT:RxNorm_CUI>
-        <NDF-RT:Synonym>Biocatalysts</NDF-RT:Synonym>
         <NDF-RT:MeSH_DUI>D004798</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000008262</NDF-RT:NUI>
+        <NDF-RT:RxNorm_CUI>3960</NDF-RT:RxNorm_CUI>
+        <NDF-RT:MeSH_CUI>M0007528</NDF-RT:MeSH_CUI>
+        <NDF-RT:Synonym>Biocatalysts</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified.</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_Name>Enzymes</NDF-RT:MeSH_Name>
         <NDF-RT:UMLS_CUI>C0014442</NDF-RT:UMLS_CUI>
         <NDF-RT:Display_Name>Enzymes</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Name>Enzymes</NDF-RT:MeSH_Name>
-        <NDF-RT:code>C26888</NDF-RT:code>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -719,15 +739,14 @@
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005793"/>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005810"/>
         <NDF-RT:Synonym>Metalloendopeptidase</NDF-RT:Synonym>
-        <NDF-RT:UMLS_CUI>C1442934</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Name>Metalloendopeptidases</NDF-RT:MeSH_Name>
-        <NDF-RT:RxNorm_CUI>465078</NDF-RT:RxNorm_CUI>
-        <NDF-RT:code>C291737</NDF-RT:code>
-        <NDF-RT:NUI>N0000011381</NDF-RT:NUI>
-        <NDF-RT:MeSH_DUI>D008666</NDF-RT:MeSH_DUI>
-        <NDF-RT:Synonym>Metallo-Endoproteinases</NDF-RT:Synonym>
         <NDF-RT:MeSH_Definition>ENDOPEPTIDASES which use a metal such as ZINC in the catalytic mechanism.</NDF-RT:MeSH_Definition>
+        <NDF-RT:MeSH_Name>Metalloendopeptidases</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Metallo-Endoproteinases</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C1442934</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>465078</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_CUI>M0013502</NDF-RT:MeSH_CUI>
+        <NDF-RT:MeSH_DUI>D008666</NDF-RT:MeSH_DUI>
+        <NDF-RT:NUI>N0000011381</NDF-RT:NUI>
         <NDF-RT:Display_Name>Metalloendopeptidases</NDF-RT:Display_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
@@ -739,15 +758,14 @@
     <owl:Class rdf:about="&NDF-RT;N0000011388">
         <rdfs:label>Enzymes and Coenzymes [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000000002"/>
-        <NDF-RT:Display_Name>Enzymes and Coenzymes</NDF-RT:Display_Name>
-        <NDF-RT:RxNorm_CUI>382397</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_Name>Enzymes and Coenzymes</NDF-RT:MeSH_Name>
-        <NDF-RT:code>C291744</NDF-RT:code>
-        <NDF-RT:MeSH_CUI>M0449275</NDF-RT:MeSH_CUI>
-        <NDF-RT:MeSH_DUI>D045762</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_Definition>Biological catalysts and their cofactors.</NDF-RT:MeSH_Definition>
-        <NDF-RT:NUI>N0000011388</NDF-RT:NUI>
+        <NDF-RT:Display_Name>Enzymes and Coenzymes</NDF-RT:Display_Name>
         <NDF-RT:UMLS_CUI>C1258127</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D045762</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_CUI>M0449275</NDF-RT:MeSH_CUI>
+        <NDF-RT:MeSH_Name>Enzymes and Coenzymes</NDF-RT:MeSH_Name>
+        <NDF-RT:RxNorm_CUI>382397</NDF-RT:RxNorm_CUI>
+        <NDF-RT:NUI>N0000011388</NDF-RT:NUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -758,16 +776,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000167539">
         <rdfs:label>Thermolysin [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000011381"/>
-        <NDF-RT:RxNorm_CUI>10445</NDF-RT:RxNorm_CUI>
-        <NDF-RT:code>C7759560172591</NDF-RT:code>
-        <NDF-RT:MeSH_DUI>D013820</NDF-RT:MeSH_DUI>
-        <NDF-RT:Display_Name>Thermolysin</NDF-RT:Display_Name>
         <NDF-RT:UMLS_CUI>C0039815</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_DUI>D013820</NDF-RT:MeSH_DUI>
         <NDF-RT:MeSH_CUI>M0021305</NDF-RT:MeSH_CUI>
         <NDF-RT:NUI>N0000167539</NDF-RT:NUI>
         <NDF-RT:MeSH_Definition>A thermostable extracellular metalloendopeptidase containing four calcium ions. (Enzyme Nomenclature, 1992) 3.4.24.27.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Synonym>Bacillus thermoproteolyticus neutral proteinase</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>10445</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Display_Name>Thermolysin</NDF-RT:Display_Name>
         <NDF-RT:MeSH_Name>Thermolysin</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Bacillus thermoproteolyticus neutral proteinase</NDF-RT:Synonym>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -778,16 +795,15 @@
     <owl:Class rdf:about="&NDF-RT;N0000167541">
         <rdfs:label>Gelatinases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000011381"/>
-        <NDF-RT:UMLS_CUI>C0206528</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_Definition>A class of enzymes that catalyzes the degradation of gelatin by acting on the peptide bonds. EC 3.4.24.-.</NDF-RT:MeSH_Definition>
-        <NDF-RT:NUI>N0000167541</NDF-RT:NUI>
-        <NDF-RT:MeSH_Name>Gelatinases</NDF-RT:MeSH_Name>
         <NDF-RT:RxNorm_CUI>67139</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C0206528</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Gelatinases</NDF-RT:Display_Name>
         <NDF-RT:Synonym>Gelatinase</NDF-RT:Synonym>
         <NDF-RT:MeSH_CUI>M0027289</NDF-RT:MeSH_CUI>
+        <NDF-RT:NUI>N0000167541</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Gelatinases</NDF-RT:MeSH_Name>
         <NDF-RT:MeSH_DUI>D018093</NDF-RT:MeSH_DUI>
-        <NDF-RT:Display_Name>Gelatinases</NDF-RT:Display_Name>
-        <NDF-RT:code>C7759563512960</NDF-RT:code>
+        <NDF-RT:MeSH_Definition>A class of enzymes that catalyzes the degradation of gelatin by acting on the peptide bonds. EC 3.4.24.-.</NDF-RT:MeSH_Definition>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -798,21 +814,20 @@
     <owl:Class rdf:about="&NDF-RT;N0000167542">
         <rdfs:label>Microbial Collagenase [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
-        <NDF-RT:UMLS_CUI>C0009053</NDF-RT:UMLS_CUI>
-        <NDF-RT:Synonym>Clostridiopeptidase A</NDF-RT:Synonym>
-        <NDF-RT:MeSH_DUI>D003012</NDF-RT:MeSH_DUI>
-        <NDF-RT:MeSH_Name>Microbial Collagenase</NDF-RT:MeSH_Name>
-        <NDF-RT:NUI>N0000167542</NDF-RT:NUI>
-        <NDF-RT:RxNorm_CUI>898492</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_CUI>M0004633</NDF-RT:MeSH_CUI>
-        <NDF-RT:RxNorm_Name>collagenase Clostridium histolyticum</NDF-RT:RxNorm_Name>
-        <NDF-RT:Synonym>Clostridium histolyticum Collagenase</NDF-RT:Synonym>
         <NDF-RT:Synonym>Nucleolysin</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Collalysine</NDF-RT:Synonym>
-        <NDF-RT:code>C7759564576503</NDF-RT:code>
+        <NDF-RT:MeSH_DUI>D003012</NDF-RT:MeSH_DUI>
+        <NDF-RT:UMLS_CUI>C0009053</NDF-RT:UMLS_CUI>
+        <NDF-RT:RxNorm_CUI>898492</NDF-RT:RxNorm_CUI>
         <NDF-RT:MeSH_Definition>A metalloproteinase which degrades helical regions of native collagen to small fragments. Preferred cleavage is -Gly in the sequence -Pro-Xaa-Gly-Pro-. Six forms (or 2 classes) have been isolated from Clostridium histolyticum that are immunologically cross-reactive but possess different sequences and different specificities. Other variants have been isolated from Bacillus cereus, Empedobacter collagenolyticum, Pseudomonas marinoglutinosa, and species of Vibrio and Streptomyces. EC 3.4.24.3.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>Collalysine</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Clostridiopeptidase A</NDF-RT:Synonym>
         <NDF-RT:Display_Name>Microbial Collagenase</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>Clostridium histolyticum Collagenase</NDF-RT:Synonym>
         <NDF-RT:Synonym>Collagenase, Microbial</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000167542</NDF-RT:NUI>
+        <NDF-RT:RxNorm_Name>collagenase Clostridium histolyticum</NDF-RT:RxNorm_Name>
+        <NDF-RT:MeSH_CUI>M0004633</NDF-RT:MeSH_CUI>
+        <NDF-RT:MeSH_Name>Microbial Collagenase</NDF-RT:MeSH_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -824,21 +839,20 @@
         <rdfs:label>Matrix Metalloproteinase 2 [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000167541"/>
-        <NDF-RT:Synonym>72-kDa Gelatinase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>MMP-2 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:UMLS_CUI>C0172537</NDF-RT:UMLS_CUI>
-        <NDF-RT:MeSH_DUI>D020778</NDF-RT:MeSH_DUI>
         <NDF-RT:Display_Name>Matrix Metalloproteinase 2</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Definition>A secreted endopeptidase homologous with INTERSTITIAL COLLAGENASE, but which possesses an additional fibronectin-like domain.</NDF-RT:MeSH_Definition>
-        <NDF-RT:RxNorm_CUI>61702</NDF-RT:RxNorm_CUI>
-        <NDF-RT:code>C7759562253861</NDF-RT:code>
-        <NDF-RT:Synonym>72-kDa Type IV Collagenase</NDF-RT:Synonym>
         <NDF-RT:MeSH_CUI>M0328128</NDF-RT:MeSH_CUI>
-        <NDF-RT:Synonym>MMP2 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_DUI>D020778</NDF-RT:MeSH_DUI>
+        <NDF-RT:Synonym>72-kDa Type IV Collagenase</NDF-RT:Synonym>
         <NDF-RT:Synonym>Matrix Metalloproteinase-2</NDF-RT:Synonym>
         <NDF-RT:Synonym>Gelatinase A</NDF-RT:Synonym>
+        <NDF-RT:Synonym>MMP-2 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>61702</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C0172537</NDF-RT:UMLS_CUI>
         <NDF-RT:NUI>N0000167545</NDF-RT:NUI>
+        <NDF-RT:Synonym>MMP2 Metalloproteinase</NDF-RT:Synonym>
         <NDF-RT:MeSH_Name>Matrix Metalloproteinase 2</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>72-kDa Gelatinase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>A secreted endopeptidase homologous with INTERSTITIAL COLLAGENASE, but which possesses an additional fibronectin-like domain.</NDF-RT:MeSH_Definition>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -850,21 +864,20 @@
         <rdfs:label>Matrix Metalloproteinase 9 [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000167541"/>
-        <NDF-RT:MeSH_Name>Matrix Metalloproteinase 9</NDF-RT:MeSH_Name>
-        <NDF-RT:RxNorm_CUI>60176</NDF-RT:RxNorm_CUI>
         <NDF-RT:Synonym>MMP-9 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:Display_Name>Matrix Metalloproteinase 9</NDF-RT:Display_Name>
         <NDF-RT:NUI>N0000167547</NDF-RT:NUI>
-        <NDF-RT:Synonym>MMP9 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>92-kDa Gelatinase</NDF-RT:Synonym>
         <NDF-RT:MeSH_DUI>D020780</NDF-RT:MeSH_DUI>
-        <NDF-RT:UMLS_CUI>C0165519</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>92-kDa Gelatinase</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Matrix Metalloproteinase 9</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>MMP9 Metalloproteinase</NDF-RT:Synonym>
         <NDF-RT:Synonym>Gelatinase B</NDF-RT:Synonym>
         <NDF-RT:Synonym>Matrix Metalloproteinase-9</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>60176</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C0165519</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_Definition>An endopeptidase that is structurally similar to MATRIX METALLOPROTEINASE 2. It degrades GELATIN types I and V; COLLAGEN TYPE IV; and COLLAGEN TYPE V.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Synonym>92-kDa Type IV Collagenase</NDF-RT:Synonym>
         <NDF-RT:MeSH_CUI>M0170326</NDF-RT:MeSH_CUI>
-        <NDF-RT:code>C7759561075779</NDF-RT:code>
+        <NDF-RT:MeSH_Name>Matrix Metalloproteinase 9</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>92-kDa Type IV Collagenase</NDF-RT:Synonym>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -875,19 +888,18 @@
     <owl:Class rdf:about="&NDF-RT;N0000167549">
         <rdfs:label>Matrix Metalloproteinase 1 [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
-        <NDF-RT:RxNorm_CUI>52433</NDF-RT:RxNorm_CUI>
-        <NDF-RT:UMLS_CUI>C0127082</NDF-RT:UMLS_CUI>
-        <NDF-RT:Synonym>Matrix Metalloproteinase-1</NDF-RT:Synonym>
-        <NDF-RT:MeSH_CUI>M0188742</NDF-RT:MeSH_CUI>
-        <NDF-RT:Synonym>Interstitial Collagenase</NDF-RT:Synonym>
-        <NDF-RT:Display_Name>Matrix Metalloproteinase 1</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Definition>A member of the metalloproteinase family of enzymes that is principally responsible for cleaving FIBRILLAR COLLAGEN. It can degrade interstitial collagens, types I, II and III.</NDF-RT:MeSH_Definition>
-        <NDF-RT:NUI>N0000167549</NDF-RT:NUI>
-        <NDF-RT:code>C7759562592731</NDF-RT:code>
         <NDF-RT:Synonym>MMP1 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>A member of the metalloproteinase family of enzymes that is principally responsible for cleaving FIBRILLAR COLLAGEN. It can degrade interstitial collagens, types I, II and III.</NDF-RT:MeSH_Definition>
         <NDF-RT:MeSH_DUI>D020781</NDF-RT:MeSH_DUI>
         <NDF-RT:Synonym>MMP-1 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_CUI>M0188742</NDF-RT:MeSH_CUI>
+        <NDF-RT:Synonym>Matrix Metalloproteinase-1</NDF-RT:Synonym>
+        <NDF-RT:RxNorm_CUI>52433</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C0127082</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>Interstitial Collagenase</NDF-RT:Synonym>
         <NDF-RT:MeSH_Name>Matrix Metalloproteinase 1</NDF-RT:MeSH_Name>
+        <NDF-RT:Display_Name>Matrix Metalloproteinase 1</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000167549</NDF-RT:NUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -898,21 +910,20 @@
     <owl:Class rdf:about="&NDF-RT;N0000167550">
         <rdfs:label>Matrix Metalloproteinase 8 [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
-        <NDF-RT:MeSH_DUI>D020784</NDF-RT:MeSH_DUI>
-        <NDF-RT:UMLS_CUI>C0172956</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_Definition>A member of the MATRIX METALLOPROTEINASES that cleaves triple-helical COLLAGEN types I, II, and III.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Synonym>MMP8 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Fibroblast Collagenase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Matrix Metalloproteinase-8</NDF-RT:Synonym>
         <NDF-RT:Synonym>Collagenase-2</NDF-RT:Synonym>
-        <NDF-RT:Synonym>MMP-8 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:code>C7759561400680</NDF-RT:code>
-        <NDF-RT:Display_Name>Matrix Metalloproteinase 8</NDF-RT:Display_Name>
+        <NDF-RT:Synonym>MMP8 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Matrix Metalloproteinase-8</NDF-RT:Synonym>
+        <NDF-RT:UMLS_CUI>C0172956</NDF-RT:UMLS_CUI>
         <NDF-RT:MeSH_Name>Matrix Metalloproteinase 8</NDF-RT:MeSH_Name>
-        <NDF-RT:MeSH_CUI>M0206959</NDF-RT:MeSH_CUI>
+        <NDF-RT:RxNorm_CUI>61784</NDF-RT:RxNorm_CUI>
         <NDF-RT:Synonym>Neutrophil Collagenase</NDF-RT:Synonym>
         <NDF-RT:NUI>N0000167550</NDF-RT:NUI>
-        <NDF-RT:RxNorm_CUI>61784</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Fibroblast Collagenase</NDF-RT:Synonym>
+        <NDF-RT:Display_Name>Matrix Metalloproteinase 8</NDF-RT:Display_Name>
+        <NDF-RT:MeSH_CUI>M0206959</NDF-RT:MeSH_CUI>
+        <NDF-RT:Synonym>MMP-8 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:MeSH_DUI>D020784</NDF-RT:MeSH_DUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -923,20 +934,19 @@
     <owl:Class rdf:about="&NDF-RT;N0000175151">
         <rdfs:label>Matrix Metalloproteinase 13 [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000006395"/>
-        <NDF-RT:Synonym>Matrix Metalloproteinase-13</NDF-RT:Synonym>
-        <NDF-RT:MeSH_Name>Matrix Metalloproteinase 13</NDF-RT:MeSH_Name>
-        <NDF-RT:NUI>N0000175151</NDF-RT:NUI>
-        <NDF-RT:Synonym>MMP-13 Metalloproteinase</NDF-RT:Synonym>
         <NDF-RT:Synonym>Collagenase 3</NDF-RT:Synonym>
-        <NDF-RT:MeSH_Definition>A secreted matrix metalloproteinase that plays a physiological role in the degradation of extracellular matrix found in skeletal tissues. It is synthesized as an inactive precursor that is activated by the proteolytic cleavage of its N-terminal propeptide.</NDF-RT:MeSH_Definition>
-        <NDF-RT:Display_Name>Matrix Metalloproteinase 13</NDF-RT:Display_Name>
-        <NDF-RT:Synonym>MMP13 Metalloproteinase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Collagenase-3</NDF-RT:Synonym>
         <NDF-RT:RxNorm_CUI>76677</NDF-RT:RxNorm_CUI>
+        <NDF-RT:Synonym>Collagenase-3</NDF-RT:Synonym>
         <NDF-RT:MeSH_CUI>M0232202</NDF-RT:MeSH_CUI>
-        <NDF-RT:code>C25681364748033</NDF-RT:code>
-        <NDF-RT:UMLS_CUI>C0255672</NDF-RT:UMLS_CUI>
+        <NDF-RT:Synonym>MMP13 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:NUI>N0000175151</NDF-RT:NUI>
+        <NDF-RT:MeSH_Name>Matrix Metalloproteinase 13</NDF-RT:MeSH_Name>
+        <NDF-RT:MeSH_Definition>A secreted matrix metalloproteinase that plays a physiological role in the degradation of extracellular matrix found in skeletal tissues. It is synthesized as an inactive precursor that is activated by the proteolytic cleavage of its N-terminal propeptide.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>MMP-13 Metalloproteinase</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Matrix Metalloproteinase-13</NDF-RT:Synonym>
         <NDF-RT:MeSH_DUI>D053509</NDF-RT:MeSH_DUI>
+        <NDF-RT:Display_Name>Matrix Metalloproteinase 13</NDF-RT:Display_Name>
+        <NDF-RT:UMLS_CUI>C0255672</NDF-RT:UMLS_CUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -947,15 +957,14 @@
     <owl:Class rdf:about="&NDF-RT;N0000178878">
         <rdfs:label>Activated Charcoal [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005865"/>
+        <NDF-RT:UMLS_CUI>C0001275</NDF-RT:UMLS_CUI>
+        <NDF-RT:MeSH_Name>Activated Charcoal</NDF-RT:MeSH_Name>
         <NDF-RT:MeSH_CUI>M0003992</NDF-RT:MeSH_CUI>
-        <NDF-RT:code>CMSHM0003992</NDF-RT:code>
         <NDF-RT:Display_Name>Activated Charcoal</NDF-RT:Display_Name>
+        <NDF-RT:NUI>N0000178878</NDF-RT:NUI>
         <NDF-RT:RxNorm_Name>Activated Charcoal</NDF-RT:RxNorm_Name>
         <NDF-RT:MeSH_DUI>D002606</NDF-RT:MeSH_DUI>
-        <NDF-RT:NUI>N0000178878</NDF-RT:NUI>
-        <NDF-RT:UMLS_CUI>C0001275</NDF-RT:UMLS_CUI>
         <NDF-RT:RxNorm_CUI>272</NDF-RT:RxNorm_CUI>
-        <NDF-RT:MeSH_Name>Activated Charcoal</NDF-RT:MeSH_Name>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
     
@@ -966,90 +975,23 @@
     <owl:Class rdf:about="&NDF-RT;N0000180271">
         <rdfs:label>Serine Proteases [Chemical/Ingredient]</rdfs:label>
         <rdfs:subClassOf rdf:resource="&NDF-RT;N0000005793"/>
-        <NDF-RT:RxNorm_CUI>868589</NDF-RT:RxNorm_CUI>
-        <NDF-RT:NUI>N0000180271</NDF-RT:NUI>
-        <NDF-RT:Synonym>Serine Proteinases</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Serine Proteinase</NDF-RT:Synonym>
-        <NDF-RT:Synonym>Serine Protease</NDF-RT:Synonym>
-        <NDF-RT:UMLS_CUI>C2717971</NDF-RT:UMLS_CUI>
+        <NDF-RT:Display_Name>Serine Proteases</NDF-RT:Display_Name>
         <NDF-RT:MeSH_CUI>M0534113</NDF-RT:MeSH_CUI>
         <NDF-RT:Synonym>Serine Protein Hydrolases</NDF-RT:Synonym>
-        <NDF-RT:code>CMSHM0534113</NDF-RT:code>
-        <NDF-RT:MeSH_Name>Serine Proteases</NDF-RT:MeSH_Name>
-        <NDF-RT:Display_Name>Serine Proteases</NDF-RT:Display_Name>
-        <NDF-RT:MeSH_Definition>Peptide hydrolases that contain at the active site a SERINE residue involved in catalysis.</NDF-RT:MeSH_Definition>
+        <NDF-RT:Synonym>Serine Proteinase</NDF-RT:Synonym>
         <NDF-RT:MeSH_DUI>D057057</NDF-RT:MeSH_DUI>
+        <NDF-RT:MeSH_Name>Serine Proteases</NDF-RT:MeSH_Name>
+        <NDF-RT:Synonym>Serine Protease</NDF-RT:Synonym>
+        <NDF-RT:Synonym>Serine Proteinases</NDF-RT:Synonym>
+        <NDF-RT:MeSH_Definition>Peptide hydrolases that contain at the active site a SERINE residue involved in catalysis.</NDF-RT:MeSH_Definition>
+        <NDF-RT:RxNorm_CUI>868589</NDF-RT:RxNorm_CUI>
+        <NDF-RT:UMLS_CUI>C2717971</NDF-RT:UMLS_CUI>
+        <NDF-RT:NUI>N0000180271</NDF-RT:NUI>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&NDF-RT;Synonym">
-        <rdfs:label>Synonym</rdfs:label>
-        <NDF-RT:code>C136</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;Display_Name">
-        <rdfs:label>Display_Name</rdfs:label>
-        <NDF-RT:code>C264</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;RxNorm_Name">
-        <rdfs:label>RxNorm_Name</rdfs:label>
-        <NDF-RT:code>C819</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;UMLS_CUI">
-        <rdfs:label>UMLS_CUI</rdfs:label>
-        <NDF-RT:code>C140</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;RxNorm_CUI">
-        <rdfs:label>RxNorm_CUI</rdfs:label>
-        <NDF-RT:code>C818</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;MeSH_DUI">
-        <rdfs:label>MeSH_DUI</rdfs:label>
-        <NDF-RT:code>C134</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;NUI">
-        <rdfs:label>NUI</rdfs:label>
-        <NDF-RT:code>C10490107818172</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;MeSH_Name">
-        <rdfs:label>MeSH_Name</rdfs:label>
-        <NDF-RT:code>C287</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;MeSH_CUI">
-        <rdfs:label>MeSH_CUI</rdfs:label>
-        <NDF-RT:code>C176</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;code">
-        <protege:readOnly rdf:datatype="&xsd;integer">1</protege:readOnly>
-        <NDF-RT:code>AHC0</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&NDF-RT;MeSH_Definition">
-        <rdfs:label>MeSH_Definition</rdfs:label>
-        <NDF-RT:code>C142</NDF-RT:code>
-        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 

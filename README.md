@@ -1,23 +1,15 @@
 # MicrO
-An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.4 (released Jan 6, 2018).
-
-
-v. 1.4 updates:
-ChEBI temporary classes were removed and replaced with new ChEBI terms.
-Organic fermentation assay classes were ontologized to match ChEBI terminology.
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.5 (released Jan 23, 2018) .
 
 
 Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore (University of Southern Maine), and Ramona Walls (University of Arizona).
 
-Includes terms and term synonyms extracted from > 1500 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes, and Mollicutes.
+Includes terms and term synonyms extracted from > 3,000 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes, and Mollicutes.
 
-The ontology and the synonym lists were developed to facilitate the automated extraction of phenotypic data and character states from prokaryotic taxonomic descriptions using a natural language processing algorithm (MicroPIE).  MicroPIE is currently being developed by Hong Cui, Elvis Hsin-Hui Wu, and Jin Mao (University of Arizona) in collaboration with Carrine E. Blank (University of Montana) and Lisa R. Moore (University of Southern Maine).
-
-A description and link to MicroPIE can be found at http://avatol.org/ngp/nlp/overview-2/.
+The ontology and the synonym lists were developed to facilitate the automated extraction of phenotypic data and character states from prokaryotic taxonomic descriptions using a natural language processing algorithm (MicroPIE).  MicroPIE was developed by Hong Cui, Elvis Hsin-Hui Wu, and Jin Mao (University of Arizona) in collaboration with Carrine E. Blank (University of Montana) and Lisa R. Moore (Macquarie University).
 
 
-
-Contains ~ 2,470 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports ~12,100 terms from 19 other ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI).  Contains >24,300 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
+Contains ~ 3,660 terms and term definitions, along with thousands of term synonyms.  Constructed in OWL Protégé; following OBO Foundry principles.  Imports over 13,600 terms from 20 other external ontologies, including Phenotype Quality (PATO), the Gene Ontology (GO), and Chemical Entities of Biological Interest (ChEBI) using import modules.  Contains over 29,600 logical axioms connecting entities and processes across multiple ontologies to facilitate inference of higher-order phenotypic traits.
 
 
 Please cite:

@@ -52,24 +52,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/po#Angiosperm -->
-
-    <owl:AnnotationProperty rdf:about="&obo;po#Angiosperm"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/po#Arabidopsis -->
-
-    <owl:AnnotationProperty rdf:about="&obo;po#Arabidopsis"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/po#Citrus -->
-
-    <owl:AnnotationProperty rdf:about="&obo;po#Citrus"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/po#Gymnosperms -->
 
     <owl:AnnotationProperty rdf:about="&obo;po#Gymnosperms"/>

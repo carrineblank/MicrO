@@ -6,9 +6,8 @@
 2.  There are a number of new terms that are being requested for entry into ChEBI.  Temporary terms are located under the class "ChEBI terms to be added and processed"
 (update Sept 26 2015: request to ChEBI has been made = Tracker # [chebi:curator-requests] #2466.  Once terms are entered into ChEBI the temporary items in MicrO will be replaced).
 (update Jan 13 2016: New ChEBI terms were incorporated into MicrO.  An additional 88 new terms were requested to be added to ChEBI [Tracker #3133 on GitHub]).
+(update Jan 23, 2018): All the requested terms were incorporated into MicrO using ChEBI_imports.owl import module.  Additional new terms remain to be requested to be added to ChEBI as they are discovered.  These are given temporary IRIs.
 
-3.  External ontologies are currently being imported using temporary owl files (created by OntoFox) in the "MicrO and Import Modules" folder.  Once the domain name request has been approved and purl addresses assigned, these will be replaced.
-(was fixed on Nov 30, 2015)
 
 __Tasks remaining/ongoing:
 
@@ -21,7 +20,3 @@ __Tasks which will likely wait until the next round of funding and development:
 
 2) Incorporating classes of prokaryotic pathogenic phenotypes
 
-
-__OBO Foundry Tasks:
-
-1) Currently there are two 'has part' terms, one imported with ChEBI and the other by RO and ENVO import modules.  This should be resolved when the temporary IRIs are replaced by the correct purl addresses.
