@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fj0r6foa.owl#" xml:base="http://ontofox.hegroup.org/fj0r6foa.owl" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fj0r6foa.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_61775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61775">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62955"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity which has three or fewer spatial dimensions. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine, peritoneal cavity, diaphragmatic surface of heart, inferior margin of liver, apex of lung.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:61775</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_62955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62955">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:62955</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_63887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological macromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure which has as its parts one or more ordered aggregates of nucleotide, amino acid fatty acid or sugar molecules bonded to one another.  Examples: collagen, DNA, neurotransmitter, troponin.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:63887</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67135">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67165"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67135</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity which is generated by coordinated expression of the organism's own genes that guide its morphogenesis; has inherent 3D shape; its parts are connected and spatially related to one another in patterns determined by coordinated gene expression. Examples: heart, right ventricle, mitral valve, myocardium, endothelium, lymphocyte, fibroblast, thorax, cardiovascular system, hemoglobin, T cell receptor.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61775"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67165</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical anatomical entity which has mass. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67257">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63887"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67257</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67295">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intermediate filament protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67257"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67295</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein that primarily constitutes an intermediate filament which provide strength or anchorage of other cellular structures. Examples: keratin, vimentin, desmin.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67297">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytoplasmic intermediate filament protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67295"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67297</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67302">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keratin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67297"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytokeratin</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67302</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fma.owl">
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24:07:2008 15:29</oboInOwl:date>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:default-namespace>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this is an ALPHA version of the FMA2.0 in obo. Conversion based on http://www.bioontology.org/wiki/index.php/FMAInOwl</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
