@@ -1,5 +1,5 @@
 # MicrO
-An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.5 (released Jan 23, 2018) .
+An Ontology of Prokaryotic Phenotypic and Metabolic Characters, version 1.5.1 (released Jun 14, 2018) .
 
 
 Created by Carrine E. Blank, University of Montana, fall 2013 through spring 2016. Co-contributors and advisors: Hong Cui (University of Arizona), Lisa Moore (University of Southern Maine), and Ramona Walls (University of Arizona).
