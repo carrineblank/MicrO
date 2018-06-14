@@ -1,6 +1,7 @@
 **Updated Jun 14, 2018:
-New version (version 1.5.1) of MicrO was released.
+New version (version 1.5.1b) of MicrO was released.
 Removed 6 duplicate classes.
+Fixed 4 classes that had identical rdfs labels.
 Fixed IRI classnames for several new MicrO classes.
 
 *** Updated Jan 23, 2018:
